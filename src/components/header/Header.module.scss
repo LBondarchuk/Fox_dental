@@ -1,0 +1,53 @@
+@import '../../utils/styles/variables.scss';
+
+.container {
+  box-sizing: border-box;
+  transition: all 0.5s ease;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 25px;
+  background-color: rgba(2, 44, 25, 0);
+  margin-top: 10px;
+
+  &:hover {
+    background-color: rgba(2, 44, 25, 0.86);
+  }
+}
+
+.wrapper {
+  position: fixed;
+  width: 100%;
+  z-index: 2;
+}
+
+.logo {
+  position: relative;
+  color: $secondary-font;
+  font-size: 32px;
+  z-index: 100;
+}
+
+.line {
+  position: relative;
+  margin: 0 auto;
+  width: 5px;
+  background-color: $main-gold;
+  height: 2px;
+  animation-name: width_animation;
+  animation-duration: 4s;
+  animation-fill-mode: forwards;
+  z-index: 2;
+}
+
+.scroll {
+  background-color: rgba(2, 44, 25, 0.6);
+  color: $secondary-font;
+  padding: 10px 25px;
+}
+
+@keyframes width_animation {
+  to {
+    width: 100%;
+  }
+}

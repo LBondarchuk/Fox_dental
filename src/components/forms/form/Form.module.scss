@@ -1,0 +1,32 @@
+@import '../../../utils/styles/variables.scss';
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 100%;
+
+  span {
+    display: flex;
+    flex-direction: column;
+    text-transform: uppercase;
+    color: $medium-font;
+  }
+
+  & input,
+  & textarea {
+    padding: 15px;
+    width: 100%;
+    border: 1px solid lightgrey;
+    outline-color: $main-green;
+    color: $main-green;
+    transition: border-radius 0.3s ease;
+    &::placeholder {
+      color: $medium-font;
+    }
+
+    &:focus {
+      border-radius: 10px;
+    }
+  }
+}

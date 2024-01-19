@@ -1,0 +1,34 @@
+@import '../../utils/styles/breckpoints.scss';
+@import '../../utils/styles/variables.scss';
+
+.container {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  z-index: 3;
+  @include small {
+    gap: 10px;
+  }
+}
+
+.icon {
+  font-size: 32px;
+  display: none;
+  @include medium {
+    display: block;
+  }
+}
+
+.link {
+  transition: all 0.5s ease;
+  @include medium {
+    display: none;
+  }
+}
+
+.mobileLink {
+  display: none;
+  @include medium {
+    display: block;
+  }
+}

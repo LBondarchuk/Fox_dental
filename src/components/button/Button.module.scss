@@ -1,0 +1,31 @@
+@import '../../utils/styles/variables.scss';
+@import '../../utils/styles/breckpoints.scss';
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.3s ease;
+
+  & button {
+    font-size: 20px;
+    text-transform: uppercase;
+
+    @include small {
+      font-size: 16px;
+    }
+  }
+
+  &:hover {
+    opacity: 0.6;
+  }
+}
+
+.header {
+  background-color: $main-gold;
+  padding: 15px 30px;
+
+  @include small {
+    padding: 15px;
+  }
+}

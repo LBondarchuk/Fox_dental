@@ -1,0 +1,91 @@
+@import '../../utils/styles/variables.scss';
+@import '../../utils/styles/breckpoints.scss';
+
+.container {
+  display: none;
+
+  @include small {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: $main-green;
+    z-index: 100;
+    position: fixed;
+    top: 0;
+    left: 0;
+    transition: transform 0.3s ease-in-out;
+    transform: translateX(100%);
+  }
+}
+
+.continue {
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: fit-content;
+  gap: 10px;
+  transform: translateY(150px) scale(0.7);
+  z-index: 101;
+
+  & p {
+    padding: 0;
+    margin: 0;
+    font-size: 18px;
+    color: $secondary-font;
+  }
+}
+
+.social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: fit-content;
+  transform: scale(0.7);
+
+  margin-top: 200px;
+  display: flex;
+  align-items: center;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  width: 90vw;
+  height: 90vh;
+  background-image: url('/iphone.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 99;
+  display: none;
+}
+
+.container.open {
+  transform: translateX(0);
+}
+
+.icon {
+  font-size: 32px;
+  color: $secondary-font;
+  animation: blink 1.5s infinite;
+}
+
+@keyframes blink {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+}

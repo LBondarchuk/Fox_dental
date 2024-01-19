@@ -1,0 +1,58 @@
+@import '../../utils/styles/variables.scss';
+
+.container {
+  padding: 100px 25px;
+  background-color: $secondary-font;
+}
+.title {
+  font-size: 60px;
+  padding: 100px 0 50px;
+}
+.itemTitle {
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 32px;
+}
+.itemActive {
+  background-color: $main-green;
+  .name {
+    color: $secondary-font;
+  }
+}
+
+.name {
+  flex-grow: 2;
+  color: $main-green;
+  transition: all 0.5s ease;
+}
+
+.action {
+  color: $main-gold;
+  font-size: 60px;
+}
+
+.children {
+}
+
+.description {
+  padding: 0 25px;
+  display: flex;
+  align-items: center;
+  background-color: lightgrey;
+  border-bottom: 2px solid $secondary-font;
+}
+
+.servise {
+  width: 50%;
+}
+
+.price {
+  width: 50%;
+  font-size: 32px;
+  color: $main-gold;
+  border-left: 2px solid $secondary-font;
+  padding: 25px 0 25px 25px;
+  text-align: end;
+}
