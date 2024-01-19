@@ -312,6 +312,7 @@
   position: relative;
   width: 200px;
   height: 200px;
+  overflow: hidden;
 }
 .MobileEnter_logo__Tswwf img {
   transform: translate(7%, -20%);
@@ -325,6 +326,7 @@
   background-image: url("/iphone.png");
   background-size: contain;
   background-repeat: no-repeat;
+  z-index: 100;
 }
 
 .MobileEnter_overlay__tWncU {

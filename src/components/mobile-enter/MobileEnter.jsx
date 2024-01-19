@@ -20,7 +20,12 @@ const MobileEnter = () => {
   }, [isMenuOpen]);
 
   return (
-    <div className={`${st.container} ${isMenuOpen ? st.open : ''}`}>
+    <div
+      className={`${st.container}`}
+      style={{
+        transform: `translateX(${isMenuOpen ? 0 : 100}%)`,
+      }}
+    >
       <div className={st.wrapper}>
         <div className={st.blocks}>
           <div className={st.logo}>
