@@ -1,0 +1,543 @@
+/*!**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[11].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[11].oneOf[9].use[5]!./src/components/about/About.module.scss ***!
+  \**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.About_container__y_yJw {
+  padding: 80px 25px;
+  margin-bottom: 40px;
+}
+
+.About_title__A3GRf {
+  color: black;
+  font-weight: 400;
+  text-transform: uppercase;
+  font-size: 60px;
+  margin-bottom: 30px;
+}
+@media (max-width: 768px) {
+  .About_title__A3GRf {
+    font-size: 40px;
+  }
+}
+
+.About_description__5tJ07 {
+  display: block;
+  width: 50%;
+  margin: 0 auto;
+  transform: translateX(20%);
+  color: #666666;
+  margin-bottom: 80px;
+}
+@media (max-width: 768px) {
+  .About_description__5tJ07 {
+    flex-direction: column;
+    width: 100%;
+    transform: translateX(0);
+  }
+}
+
+.About_imagesContainer__yLrz2 {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+  height: 600px;
+}
+@media (max-width: 768px) {
+  .About_imagesContainer__yLrz2 {
+    flex-direction: column;
+    height: 1300px;
+  }
+}
+@media (max-width: 468px) {
+  .About_imagesContainer__yLrz2 {
+    height: 800px;
+  }
+}
+
+.About_left__TYu6z {
+  position: relative;
+  height: 100%;
+  width: 45%;
+  transition: all 0.6s ease;
+}
+.About_left__TYu6z:hover {
+  transform: translateX(10px);
+}
+@media (max-width: 768px) {
+  .About_left__TYu6z {
+    width: 100%;
+    height: 45%;
+    margin-bottom: 100px;
+  }
+}
+
+.About_leftTop__cp0e_ {
+  height: 100%;
+  position: relative;
+  background-color: gray;
+  border-radius: 0 50px 0 0;
+  overflow: hidden;
+}
+
+.About_leftBottom___vJYH {
+  position: absolute;
+  background-color: rgb(128, 94, 94);
+  width: 300px;
+  height: 180px;
+  right: -80px;
+  transform: translateY(-50%);
+}
+@media (max-width: 468px) {
+  .About_leftBottom___vJYH {
+    right: 0;
+  }
+}
+
+.About_right__CWiNb {
+  height: 100%;
+  width: 45%;
+  transition: all 0.6s ease;
+}
+.About_right__CWiNb:hover {
+  transform: translateX(10px);
+}
+@media (max-width: 768px) {
+  .About_right__CWiNb {
+    width: 100%;
+    height: 45%;
+  }
+}
+
+.About_rightTop__PQQiU {
+  height: 60%;
+  background-color: gray;
+  margin-bottom: 40px;
+  border-radius: 0 0 50px 0;
+  overflow: hidden;
+}
+
+.About_rightBottom__wiJ5O {
+  height: 20%;
+  color: #666666;
+}
+/*!************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[11].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[11].oneOf[9].use[5]!./src/components/banner/Banner.module.scss ***!
+  \************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.Banner_container__lJZUv {
+  position: relative;
+  height: 90vh;
+}
+
+.Banner_text__NIo2w {
+  position: absolute;
+  z-index: 1;
+  font-size: 70px;
+  top: 70%;
+  left: 25px;
+  font-weight: 400;
+  color: aliceblue;
+}
+@media (max-width: 468px) {
+  .Banner_text__NIo2w {
+    font-size: 30px;
+  }
+}
+@media (max-width: 768px) {
+  .Banner_text__NIo2w {
+    font-size: 40px;
+  }
+}
+/*!*******************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[3]!./src/app/page.module.css ***!
+  \*******************************************************************************************************************************************************************************************************************************************************************/
+.page_container__aoG4z {
+  flex-grow: 1;
+  background-color: aliceblue;
+}
+
+/*!************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[11].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[11].oneOf[9].use[5]!./src/components/button/Button.module.scss ***!
+  \************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.Button_container__g6l6q {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.3s ease;
+}
+.Button_container__g6l6q button {
+  font-size: 20px;
+  text-transform: uppercase;
+  color: rgba(2, 44, 25, 0.95);
+}
+@media (max-width: 468px) {
+  .Button_container__g6l6q button {
+    font-size: 16px;
+  }
+}
+.Button_container__g6l6q:hover {
+  opacity: 0.6;
+}
+
+.Button_header__RU1dN {
+  background-color: #daa520;
+  padding: 15px 30px;
+}
+@media (max-width: 468px) {
+  .Button_header__RU1dN {
+    padding: 15px;
+  }
+}
+/*!**************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[11].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[11].oneOf[9].use[5]!./src/components/forms/form/Form.module.scss ***!
+  \**************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.Form_container__tvbsB {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 100%;
+}
+.Form_container__tvbsB span {
+  display: flex;
+  flex-direction: column;
+  text-transform: uppercase;
+  color: #666666;
+}
+.Form_container__tvbsB input, .Form_container__tvbsB textarea {
+  padding: 15px;
+  width: 100%;
+  border: 1px solid lightgrey;
+  outline-color: rgba(2, 44, 25, 0.95);
+  color: rgba(2, 44, 25, 0.95);
+  transition: border-radius 0.3s ease;
+}
+.Form_container__tvbsB input::placeholder, .Form_container__tvbsB textarea::placeholder {
+  color: #666666;
+}
+.Form_container__tvbsB input:focus, .Form_container__tvbsB textarea:focus {
+  border-radius: 10px;
+}
+/*!***************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[11].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[11].oneOf[9].use[5]!./src/components/forms/header-form/HeaderForm.module.scss ***!
+  \***************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+
+/*!*************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[11].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[11].oneOf[9].use[5]!./src/components/social-medias/SocialMedias.module.scss ***!
+  \*************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.SocialMedias_sociall__7n14a {
+  display: flex;
+  gap: 50px;
+  margin-left: auto;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+@media (max-width: 768px) {
+  .SocialMedias_sociall__7n14a {
+    justify-content: center;
+    width: 100%;
+  }
+}
+
+.SocialMedias_icon__USLge {
+  font-size: 45px;
+  color: inherit;
+}
+
+.SocialMedias_border__cjCDa {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  height: 100px;
+  border: 1px solid aliceblue;
+  border-radius: 50%;
+  color: #666666;
+  transition: all 0.5s ease;
+}
+.SocialMedias_border__cjCDa:hover {
+  color: aliceblue;
+  background-color: #daa520;
+}
+/*!***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[11].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[11].oneOf[9].use[5]!./src/components/mobile-enter/MobileEnter.module.scss ***!
+  \***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.MobileEnter_container__n63Be {
+  display: none;
+}
+@media (max-width: 468px) {
+  .MobileEnter_container__n63Be {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(2, 44, 25, 0.95);
+    z-index: 100;
+    position: fixed;
+    top: 0;
+    left: 0;
+    transition: transform 0.3s ease-in-out;
+    transform: translateX(100%);
+  }
+}
+
+.MobileEnter_continue__uVacs {
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: -moz-fit-content;
+  height: fit-content;
+  gap: 10px;
+  transform: translateY(150px) scale(0.7);
+  z-index: 101;
+}
+.MobileEnter_continue__uVacs p {
+  padding: 0;
+  margin: 0;
+  font-size: 18px;
+  color: aliceblue;
+}
+
+.MobileEnter_social__ds0Rc {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: -moz-fit-content;
+  height: fit-content;
+  transform: scale(0.7);
+  margin-top: 200px;
+  display: flex;
+  align-items: center;
+}
+
+.MobileEnter_wrapper__9_bN2 {
+  display: flex;
+  justify-content: center;
+  width: 90vw;
+  height: 90vh;
+  background-image: url("/iphone.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.MobileEnter_overlay__tWncU {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 99;
+  display: none;
+}
+
+.MobileEnter_container__n63Be.MobileEnter_open__faIZg {
+  transform: translateX(0);
+}
+
+.MobileEnter_icon__uD7jw {
+  font-size: 32px;
+  color: aliceblue;
+  animation: MobileEnter_blink__CWL7o 1.5s infinite;
+}
+
+@keyframes MobileEnter_blink__CWL7o {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+}
+/*!****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[11].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[11].oneOf[9].use[5]!./src/components/servises/Servises.module.scss ***!
+  \****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.Servises_container__XJhfE {
+  padding: 80px 25px;
+}
+
+.Servises_title__EdDTd {
+  font-size: 60px;
+  font-weight: 400;
+  padding: 80px 0;
+}
+@media (max-width: 768px) {
+  .Servises_title__EdDTd {
+    font-size: 40px;
+  }
+}
+
+.Servises_item__GHvr1 {
+  display: flex;
+  overflow: hidden;
+  padding-top: 0;
+  margin: 40px 0;
+  transition: all 0.3s ease;
+}
+.Servises_item__GHvr1:hover {
+  border-radius: 0 0 50px 0;
+}
+.Servises_item__GHvr1:hover {
+  background-color: #666666;
+  color: aliceblue;
+}
+@media (max-width: 1200px) {
+  .Servises_item__GHvr1 {
+    flex-wrap: wrap;
+  }
+}
+
+.Servises_number__BYneW {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 20%;
+  font-size: 40px;
+  font-weight: 400;
+  color: inherit;
+}
+
+.Servises_description__O39ue {
+  width: 40%;
+  padding: 80px 0;
+}
+.Servises_description__O39ue h2 {
+  padding: 10px 0;
+  font-size: 40px;
+  font-weight: 400;
+  color: inherit;
+}
+.Servises_description__O39ue p {
+  color: inherit;
+  padding: 10px 0;
+}
+@media (max-width: 1200px) {
+  .Servises_description__O39ue {
+    width: 80%;
+  }
+}
+
+.Servises_img__9Qe7J {
+  position: relative;
+  width: 40%;
+  flex-grow: 2;
+}
+.Servises_img__9Qe7J:hover {
+  transition: all 0.3s ease;
+  transform: translate(10px, -10px);
+}
+@media (max-width: 1200px) {
+  .Servises_img__9Qe7J {
+    height: 300px;
+  }
+}
+
+.Servises_image__7A_GZ {
+  transform: translate(10px, -10px);
+}
+/*!****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[11].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[11].oneOf[9].use[5]!./src/components/location/Location.module.scss ***!
+  \****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.Location_container__6BSVQ {
+  display: flex;
+  height: 80vh;
+  padding: 80px 25px;
+  width: 100%;
+}
+@media (max-width: 768px) {
+  .Location_container__6BSVQ {
+    flex-direction: column-reverse;
+    height: 140vh;
+  }
+}
+
+.Location_form__ldgnO {
+  width: 100%;
+  padding: 25px;
+  background-color: #fff;
+}
+.Location_form__ldgnO:hover {
+  transition: all 0.5s ease;
+  border-radius: 0 0 0 50px;
+}
+@media (max-width: 768px) {
+  .Location_form__ldgnO {
+    height: 50%;
+  }
+}
+
+.Location_map__d26Eh {
+  width: 100%;
+}
+@media (max-width: 768px) {
+  .Location_map__d26Eh {
+    height: 50%;
+  }
+}
+/*!***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[11].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[11].oneOf[9].use[5]!./src/components/why-we/WhyWe.module.scss ***!
+  \***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.WhyWe_container__yk_Jq {
+  padding: 80px 25px;
+  background-color: rgba(2, 44, 25, 0.95);
+}
+
+.WhyWe_title__QQ4_W {
+  font-size: 60px;
+  text-transform: uppercase;
+  padding: 80px 0;
+  padding-top: 0;
+  font-weight: 400;
+  color: aliceblue;
+}
+@media (max-width: 768px) {
+  .WhyWe_title__QQ4_W {
+    font-size: 40px;
+  }
+}
+
+.WhyWe_items__xJRLI {
+  display: flex;
+}
+@media (max-width: 1200px) {
+  .WhyWe_items__xJRLI {
+    flex-direction: column;
+  }
+}
+
+.WhyWe_item__MWmpy {
+  width: 33.3%;
+  padding: 0 50px;
+  border-left: 2px solid aliceblue;
+}
+@media (max-width: 1200px) {
+  .WhyWe_item__MWmpy {
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid aliceblue;
+    padding: 50px 0;
+  }
+}
+
+.WhyWe_itemTitle__4RJQi {
+  height: 100px;
+  font-size: 32px;
+  font-weight: 400;
+  text-align: center;
+  color: #daa520;
+}
+@media (max-width: 1200px) {
+  .WhyWe_itemTitle__4RJQi {
+    text-align: start;
+  }
+}
+
+.WhyWe_description__nzgIV {
+  text-align: center;
+  color: aliceblue;
+  font-size: 20px;
+}
+@media (max-width: 1200px) {
+  .WhyWe_description__nzgIV {
+    text-align: start;
+  }
+}

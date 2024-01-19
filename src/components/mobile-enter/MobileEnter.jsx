@@ -26,13 +26,7 @@ const MobileEnter = () => {
         <div className={st.blocks}>
           <div className={st.continue}>
             {' '}
-            {isMenuOpen && (
-              <Button
-                onClick={toggleMenu}
-                text={`Продовжити\n
-             на сайті`}
-              />
-            )}
+            {isMenuOpen && <Button onClick={toggleMenu} text={`Продовжити`} />}
             <HiOutlineChevronDoubleRight className={st.icon} />
           </div>
           <div className={st.continue} style={{ flexDirection: 'column' }}>
