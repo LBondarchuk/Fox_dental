@@ -31,7 +31,8 @@ const Header = () => {
         })}
       >
         <span className={st.logo}>
-          <Image src='/iphone.png' alt='' width={50} height={30} />
+          {' '}
+          <Image className={st.image} src='/logo.png' alt='Banner Image' width={150} height={150} />
         </span>
         <Nav />
         <MobileNav show={show} />

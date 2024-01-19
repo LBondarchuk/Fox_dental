@@ -343,10 +343,16 @@ a {
 }
 
 .Header_logo__h_d_N {
+  display: block;
+  height: 50px;
+  width: 50px;
   position: relative;
   color: aliceblue;
   font-size: 32px;
   z-index: 100;
+}
+.Header_logo__h_d_N img {
+  transform: translate(-24%, -40%);
 }
 
 .Header_line__xdXKf {
@@ -362,7 +368,7 @@ a {
 }
 
 .Header_scroll__KV1Wn {
-  background-color: rgba(2, 44, 25, 0.6);
+  background-color: rgba(2, 44, 25, 0.86);
   color: aliceblue;
   padding: 10px 25px;
 }

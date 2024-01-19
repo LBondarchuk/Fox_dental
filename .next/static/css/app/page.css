@@ -275,7 +275,6 @@
     top: 0;
     left: 0;
     transition: transform 0.3s ease-in-out;
-    transform: translateX(100%);
   }
 }
 
@@ -287,7 +286,7 @@
   height: -moz-fit-content;
   height: fit-content;
   gap: 10px;
-  transform: translateY(150px) scale(0.7);
+  transform: scale(0.7);
   z-index: 101;
 }
 .MobileEnter_continue__uVacs p {
@@ -298,15 +297,24 @@
 }
 
 .MobileEnter_social__ds0Rc {
+  margin-top: -50px;
   display: flex;
   justify-content: center;
   align-items: center;
   height: -moz-fit-content;
   height: fit-content;
   transform: scale(0.7);
-  margin-top: 200px;
   display: flex;
   align-items: center;
+}
+
+.MobileEnter_logo__Tswwf {
+  position: relative;
+  width: 200px;
+  height: 200px;
+}
+.MobileEnter_logo__Tswwf img {
+  transform: translate(7%, -20%);
 }
 
 .MobileEnter_wrapper__9_bN2 {

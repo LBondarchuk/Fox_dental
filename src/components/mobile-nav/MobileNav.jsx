@@ -1,3 +1,5 @@
+'use client';
+import { useEffect } from 'react';
 import NavLink from '../nav-link/NavLink';
 import SocialMedias from '../social-medias/SocialMedias';
 import st from './MobileNav.module.scss';
@@ -6,9 +8,20 @@ import { AiFillFacebook, AiFillInstagram } from 'react-icons/ai';
 const MobileNav = ({ show }) => {
   const navItems = [
     { link: '/', name: 'HOME' },
-    { link: '/price', name: 'PRICES' },
+    { link: '/prices', name: 'PRICES' },
     { link: '/', name: 'HOME' },
   ];
+
+  const toggleBodyScroll = () => {
+    document.body.style.overflow = show ? 'hidden' : 'auto';
+  };
+  useEffect(() => {
+    toggleBodyScroll();
+    return () => {
+      toggleBodyScroll();
+    };
+  }, [show]);
+
   return (
     <div
       className={st.container}

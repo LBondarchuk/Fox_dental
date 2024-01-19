@@ -22,10 +22,16 @@
 }
 
 .logo {
+  display: block;
+  height: 50px;
+  width: 50px;
   position: relative;
   color: $secondary-font;
   font-size: 32px;
   z-index: 100;
+  & img {
+    transform: translate(-24%, -40%);
+  }
 }
 
 .line {
@@ -41,7 +47,7 @@
 }
 
 .scroll {
-  background-color: rgba(2, 44, 25, 0.6);
+  background-color: rgba(2, 44, 25, 0.86);
   color: $secondary-font;
   padding: 10px 25px;
 }

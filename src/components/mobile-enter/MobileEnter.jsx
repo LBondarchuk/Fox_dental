@@ -1,7 +1,6 @@
 'use client';
-
 import Image from 'next/image';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import st from './MobileEnter.module.scss';
 import { HiOutlineChevronDoubleRight } from 'react-icons/hi';
 import Button from '../button/Button';
@@ -9,21 +8,30 @@ import SocialMedias from '../social-medias/SocialMedias';
 
 const MobileEnter = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(true);
-
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
-
-    if (!isMenuOpen) {
-      document.body.style.overflow = 'hidden';
-    } else {
-      document.body.style.overflow = 'auto';
-    }
   };
+  useEffect(() => {
+    const bodyOverflowStyle = isMenuOpen ? 'hidden' : 'auto';
+    document.body.style.overflow = bodyOverflowStyle;
+    return () => {
+      document.body.style.overflow = 'auto';
+    };
+  }, [isMenuOpen]);
 
   return (
     <div className={`${st.container} ${isMenuOpen ? st.open : ''}`}>
       <div className={st.wrapper}>
         <div className={st.blocks}>
+          <div className={st.logo}>
+            <Image
+              className={st.image}
+              src='/logo.png'
+              alt='Banner Image'
+              width={300}
+              height={300}
+            />
+          </div>
           <div className={st.continue}>
             {' '}
             {isMenuOpen && <Button onClick={toggleMenu} text={`Продовжити`} />}
