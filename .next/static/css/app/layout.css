@@ -332,6 +332,14 @@ a {
     color: #daa520;
   }
 }
+
+.MobileNav_links___MW8C {
+  transform: translateY(70px);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+}
 /*!********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[11].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[11].oneOf[9].use[5]!./src/components/logo/Logo.module.scss ***!
   \********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
@@ -378,6 +386,7 @@ a {
   background-color: rgba(2, 44, 25, 0);
   margin-top: 10px;
   height: 80px;
+  padding-right: 25px;
 }
 .Header_container__Q9KhP:hover {
   background-color: rgba(2, 44, 25, 0.86);

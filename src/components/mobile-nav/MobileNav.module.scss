@@ -9,7 +9,6 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-
     padding-top: 100px;
     height: 100vh;
     width: 100vw;
@@ -21,4 +20,12 @@
 
     color: $main-gold;
   }
+}
+
+.links {
+  transform: translateY(70px);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
 }

@@ -26,7 +26,7 @@ const MobileNav = ({ show }) => {
       className={st.container}
       style={{ transform: !show ? 'translateX(+100%)' : 'translateX(0)' }}
     >
-      <div>
+      <div className={st.links}>
         {navItems.map((item) => (
           <NavLink key={item.name} item={item} />
         ))}
