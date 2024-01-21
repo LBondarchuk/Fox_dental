@@ -1,0 +1,158 @@
+/*!************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[11].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[11].oneOf[9].use[5]!./src/components/button/Button.module.scss ***!
+  \************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.Button_container__g6l6q {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.3s ease;
+}
+.Button_container__g6l6q button {
+  font-size: 20px;
+  text-transform: uppercase;
+  color: rgba(2, 44, 25, 0.95);
+}
+@media (max-width: 468px) {
+  .Button_container__g6l6q button {
+    font-size: 16px;
+  }
+}
+.Button_container__g6l6q:hover {
+  opacity: 0.6;
+}
+
+.Button_header__RU1dN {
+  background-color: #daa520;
+  padding: 15px 30px;
+}
+@media (max-width: 468px) {
+  .Button_header__RU1dN {
+    padding: 15px;
+  }
+}
+/*!*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[11].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[11].oneOf[9].use[5]!./src/components/modals/modal/Modal.module.scss ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.Modal_customModal__LK_cA {
+  max-width: 60vw;
+  margin: 25px auto;
+}
+.Modal_customModal__LK_cA div {
+  background-color: aliceblue;
+  color: rgba(2, 44, 25, 0.95);
+}
+@media (max-width: 468px) {
+  .Modal_customModal__LK_cA {
+    max-width: 90vw;
+  }
+}
+/*!*******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[11].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[11].oneOf[9].use[5]!./src/components/modals/serviseModal/ServiseModal.module.scss ***!
+  \*******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+
+/*!*************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[11].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[11].oneOf[9].use[5]!./src/components/servisesPageComponents/servise/Servise.module.scss ***!
+  \*************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.Servise_container__rQmML {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  width: 49%;
+  height: 49vh;
+  background-color: aliceblue;
+  margin-bottom: 30px;
+  color: rgba(2, 44, 25, 0.95);
+  transition: all 0.5s ease;
+  cursor: pointer;
+}
+@media (max-width: 468px) {
+  .Servise_container__rQmML {
+    flex-direction: column-reverse;
+    width: 100%;
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+}
+@media (max-width: 1200px) {
+  .Servise_container__rQmML {
+    width: 100%;
+  }
+}
+.Servise_container__rQmML:hover {
+  background-color: #daa520;
+  border-radius: 0 50px 0 0;
+}
+
+.Servise_image__oQK66 {
+  position: relative;
+  width: 25vw;
+  height: 25vh;
+}
+@media (max-width: 1200px) {
+  .Servise_image__oQK66 {
+    width: 40vw;
+    height: 40vh;
+  }
+}
+@media (max-width: 468px) {
+  .Servise_image__oQK66 {
+    width: 100%;
+    height: 40vh;
+  }
+}
+
+.Servise_text__2Srw1 {
+  width: 25vw;
+  padding: 40px;
+  color: inherit;
+}
+@media (max-width: 1200px) {
+  .Servise_text__2Srw1 {
+    width: 40vw;
+    height: 40vh;
+  }
+}
+@media (max-width: 768px) {
+  .Servise_text__2Srw1 {
+    width: 50%;
+    padding: 10px;
+  }
+}
+@media (max-width: 468px) {
+  .Servise_text__2Srw1 {
+    padding-top: 20px;
+    width: 100%;
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+}
+.Servise_text__2Srw1 h3 {
+  color: inherit;
+  margin-bottom: 30px;
+}
+.Servise_text__2Srw1 p {
+  color: inherit;
+}
+/*!*************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[11].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[11].oneOf[9].use[5]!./src/app/servises/ServisesPage.module.scss ***!
+  \*************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.ServisesPage_container__ymyYJ {
+  padding: 100px 25px 0;
+  background-color: #666666;
+}
+
+.ServisesPage_list__p_vYP {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2%;
+}
+@media (max-width: 1200px) {
+  .ServisesPage_list__p_vYP {
+    flex-direction: column;
+  }
+}
+
+.ServisesPage_title__zoUDi {
+  color: aliceblue;
+  padding: 40px;
+}
