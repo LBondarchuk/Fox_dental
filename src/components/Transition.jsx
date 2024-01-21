@@ -13,7 +13,7 @@ export const Transition = ({ children, bacground = '#fff' }) => {
       ref={ref}
       style={{
         transition: 'all 0.8s ease',
-        opacity: !inView ? 0 : 1,
+        opacity: !inView ? 0.8 : 1,
         paddingTop: !inView ? 20 : 0,
       }}
     >
