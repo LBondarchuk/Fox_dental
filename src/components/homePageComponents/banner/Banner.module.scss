@@ -1,0 +1,23 @@
+@import '../../../utils/styles/breckpoints.scss';
+@import '../../../utils/styles/variables.scss';
+
+.container {
+  position: relative;
+  height: 90vh;
+}
+
+.text {
+  position: absolute;
+  z-index: 1;
+  font-size: 70px;
+  top: 70%;
+  left: 25px;
+  font-weight: 400;
+  color: $secondary-font;
+  @include small {
+    font-size: 30px;
+  }
+  @include medium {
+    font-size: 40px;
+  }
+}

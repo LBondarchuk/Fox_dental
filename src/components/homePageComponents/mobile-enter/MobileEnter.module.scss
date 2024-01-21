@@ -1,0 +1,97 @@
+@import '../../../utils/styles/variables.scss';
+@import '../../../utils/styles/breckpoints.scss';
+
+.container {
+  display: none;
+
+  @include small {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(2, 44, 25, 1);
+    z-index: 100;
+    position: fixed;
+    top: 0;
+    left: 0;
+    transition: transform 0.3s ease-in-out;
+  }
+}
+
+.continue {
+  margin-top: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: fit-content;
+  gap: 10px;
+  transform: scale(0.7);
+  z-index: 101;
+
+  & p {
+    padding: 0;
+    margin: 0;
+    font-size: 18px;
+    color: $secondary-font;
+  }
+}
+
+.social {
+  margin-top: -30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: fit-content;
+  transform: scale(0.7);
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: fit-content;
+  margin: 0 auto;
+  transform: translateY(40%) scale(250%);
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  width: 95vw;
+  height: 95vh;
+  background-image: url('/iphone.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  z-index: 100;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 99;
+  display: none;
+}
+
+.container.open {
+  transform: translateX(0);
+}
+
+.icon {
+  font-size: 32px;
+  color: $secondary-font;
+  animation: blink 1.5s infinite;
+}
+
+@keyframes blink {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+}

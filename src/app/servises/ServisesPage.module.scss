@@ -1,0 +1,21 @@
+@import '../../utils/styles/variables.scss';
+@import '../../utils/styles/breckpoints.scss';
+.container {
+  padding: 100px 25px 0;
+  background-color: $medium-font;
+}
+
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2%;
+
+  @include large {
+    flex-direction: column;
+  }
+}
+
+.title {
+  color: $secondary-font;
+  padding: 40px;
+}

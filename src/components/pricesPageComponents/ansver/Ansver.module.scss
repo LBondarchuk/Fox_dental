@@ -1,0 +1,40 @@
+@import '../../../utils/styles/variables.scss';
+@import '../../../utils/styles/breckpoints.scss';
+.container {
+  display: flex;
+  background-color: $main-gold;
+  @include medium {
+    flex-direction: column;
+  }
+}
+
+.image {
+  position: relative;
+  min-height: 50vh;
+  width: 50%;
+  padding: 30px;
+
+  @include medium {
+    width: 100%;
+  }
+}
+
+.text {
+  width: 50%;
+  padding: 40px;
+
+  @include medium {
+    width: 100%;
+  }
+  & h2 {
+    text-transform: uppercase;
+    color: $main-green;
+    padding: 40px;
+  }
+
+  & p {
+    color: $main-green;
+
+    margin-bottom: 40px;
+  }
+}
