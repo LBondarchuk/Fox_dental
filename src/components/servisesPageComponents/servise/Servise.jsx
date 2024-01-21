@@ -6,9 +6,7 @@ const Servise = ({ onShpwModal }) => {
   return (
     <div className={st.container} onClick={onShpwModal}>
       <div className={st.image}>
-        <Transition>
-          <Image src='/2.jpeg' alt='Banner Image' layout='fill' objectFit='cover' />
-        </Transition>
+        <Image src='/2.jpeg' alt='Banner Image' layout='fill' objectFit='cover' />
       </div>
       <Transition>
         <div className={st.text}>

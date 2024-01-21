@@ -14,7 +14,7 @@ export const Transition = ({ children, bacground = '#fff' }) => {
       style={{
         transition: 'all 0.8s ease',
         opacity: !inView ? 0 : 1,
-        paddingTop: !inView ? 100 : 0,
+        paddingTop: !inView ? 20 : 0,
       }}
     >
       {children}
