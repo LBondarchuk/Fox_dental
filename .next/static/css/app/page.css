@@ -1,159 +1,3 @@
-/*!**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[11].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[11].oneOf[9].use[5]!./src/components/about/About.module.scss ***!
-  \**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
-.About_container__y_yJw {
-  padding: 80px 25px;
-  margin-bottom: 40px;
-}
-
-.About_title__A3GRf {
-  color: black;
-  font-weight: 400;
-  text-transform: uppercase;
-  font-size: 60px;
-  margin-bottom: 30px;
-}
-@media (max-width: 768px) {
-  .About_title__A3GRf {
-    font-size: 40px;
-  }
-}
-
-.About_description__5tJ07 {
-  display: block;
-  width: 50%;
-  margin: 0 auto;
-  transform: translateX(20%);
-  color: #666666;
-  margin-bottom: 80px;
-}
-@media (max-width: 768px) {
-  .About_description__5tJ07 {
-    flex-direction: column;
-    width: 100%;
-    transform: translateX(0);
-  }
-}
-
-.About_imagesContainer__yLrz2 {
-  display: flex;
-  justify-content: space-between;
-  gap: 40px;
-  height: 600px;
-}
-@media (max-width: 768px) {
-  .About_imagesContainer__yLrz2 {
-    flex-direction: column;
-    height: 1300px;
-  }
-}
-@media (max-width: 468px) {
-  .About_imagesContainer__yLrz2 {
-    height: 800px;
-  }
-}
-
-.About_left__TYu6z {
-  position: relative;
-  height: 100%;
-  width: 45%;
-  transition: all 0.6s ease;
-}
-.About_left__TYu6z:hover {
-  transform: translateX(10px);
-}
-@media (max-width: 768px) {
-  .About_left__TYu6z {
-    width: 100%;
-    height: 45%;
-    margin-bottom: 100px;
-  }
-}
-
-.About_leftTop__cp0e_ {
-  height: 100%;
-  position: relative;
-  background-color: gray;
-  border-radius: 0 50px 0 0;
-  overflow: hidden;
-}
-
-.About_leftBottom___vJYH {
-  position: absolute;
-  background-color: rgb(128, 94, 94);
-  width: 300px;
-  height: 180px;
-  right: -80px;
-  transform: translateY(-50%);
-}
-@media (max-width: 468px) {
-  .About_leftBottom___vJYH {
-    right: 0;
-  }
-}
-
-.About_right__CWiNb {
-  height: 100%;
-  width: 45%;
-  transition: all 0.6s ease;
-}
-.About_right__CWiNb:hover {
-  transform: translateX(10px);
-}
-@media (max-width: 768px) {
-  .About_right__CWiNb {
-    width: 100%;
-    height: 45%;
-  }
-}
-
-.About_rightTop__PQQiU {
-  height: 60%;
-  background-color: gray;
-  margin-bottom: 40px;
-  border-radius: 0 0 50px 0;
-  overflow: hidden;
-}
-
-.About_rightBottom__wiJ5O {
-  height: 20%;
-  color: #666666;
-}
-/*!************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[11].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[11].oneOf[9].use[5]!./src/components/banner/Banner.module.scss ***!
-  \************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
-.Banner_container__lJZUv {
-  position: relative;
-  height: 90vh;
-}
-
-.Banner_text__NIo2w {
-  position: absolute;
-  z-index: 1;
-  font-size: 70px;
-  top: 70%;
-  left: 25px;
-  font-weight: 400;
-  color: aliceblue;
-}
-@media (max-width: 468px) {
-  .Banner_text__NIo2w {
-    font-size: 30px;
-  }
-}
-@media (max-width: 768px) {
-  .Banner_text__NIo2w {
-    font-size: 40px;
-  }
-}
-/*!*******************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[3]!./src/app/page.module.css ***!
-  \*******************************************************************************************************************************************************************************************************************************************************************/
-.page_container__aoG4z {
-  flex-grow: 1;
-  background-color: aliceblue;
-}
-
 /*!************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[11].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[11].oneOf[9].use[5]!./src/components/button/Button.module.scss ***!
   \************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
@@ -218,7 +62,196 @@
 /*!***************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[11].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[11].oneOf[9].use[5]!./src/components/forms/header-form/HeaderForm.module.scss ***!
   \***************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.HeaderForm_error__knSXu {
+  color: rgb(255, 165, 0);
+}
+/*!*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[11].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[11].oneOf[9].use[5]!./src/components/homePageComponents/about/About.module.scss ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.About_container__CIL_Y {
+  padding: 80px 25px;
+  margin-bottom: 40px;
+}
 
+.About_title__AGQzS {
+  color: black;
+  font-weight: 400;
+  text-transform: uppercase;
+  font-size: 60px;
+  margin-bottom: 30px;
+}
+@media (max-width: 768px) {
+  .About_title__AGQzS {
+    font-size: 40px;
+  }
+}
+
+.About_description__zp0wk {
+  display: block;
+  width: 50%;
+  margin: 0 auto;
+  transform: translateX(20%);
+  color: #666666;
+  margin-bottom: 80px;
+}
+@media (max-width: 768px) {
+  .About_description__zp0wk {
+    flex-direction: column;
+    width: 100%;
+    transform: translateX(0);
+  }
+}
+
+.About_imagesContainer___ZGC3 {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+  height: 600px;
+}
+@media (max-width: 768px) {
+  .About_imagesContainer___ZGC3 {
+    flex-direction: column;
+    height: 1300px;
+  }
+}
+@media (max-width: 468px) {
+  .About_imagesContainer___ZGC3 {
+    height: 800px;
+  }
+}
+
+.About_left__taKPk {
+  position: relative;
+  height: 100%;
+  width: 45%;
+  transition: all 0.6s ease;
+}
+.About_left__taKPk:hover {
+  transform: translateX(10px);
+}
+@media (max-width: 768px) {
+  .About_left__taKPk {
+    width: 100%;
+    height: 45%;
+    margin-bottom: 100px;
+  }
+}
+
+.About_leftTop__rnb17 {
+  height: 100%;
+  position: relative;
+  background-color: gray;
+  border-radius: 0 50px 0 0;
+  overflow: hidden;
+}
+
+.About_leftBottom__AhXRf {
+  position: absolute;
+  background-color: rgb(128, 94, 94);
+  width: 300px;
+  height: 180px;
+  right: -80px;
+  transform: translateY(-50%);
+}
+@media (max-width: 468px) {
+  .About_leftBottom__AhXRf {
+    right: 0;
+  }
+}
+
+.About_right__KARu8 {
+  height: 100%;
+  width: 45%;
+  transition: all 0.6s ease;
+}
+.About_right__KARu8:hover {
+  transform: translateX(10px);
+}
+@media (max-width: 768px) {
+  .About_right__KARu8 {
+    width: 100%;
+    height: 45%;
+  }
+}
+
+.About_rightTop__Isq2B {
+  height: 60%;
+  background-color: gray;
+  margin-bottom: 40px;
+  border-radius: 0 0 50px 0;
+  overflow: hidden;
+}
+
+.About_rightBottom__PaZVS {
+  height: 20%;
+  color: #666666;
+}
+/*!*******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[11].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[11].oneOf[9].use[5]!./src/components/homePageComponents/banner/Banner.module.scss ***!
+  \*******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.Banner_container__He4uj {
+  position: relative;
+  height: 90vh;
+}
+
+.Banner_text__J_9zu {
+  position: absolute;
+  z-index: 1;
+  font-size: 70px;
+  top: 70%;
+  left: 25px;
+  font-weight: 400;
+  color: aliceblue;
+}
+@media (max-width: 468px) {
+  .Banner_text__J_9zu {
+    font-size: 30px;
+  }
+}
+@media (max-width: 768px) {
+  .Banner_text__J_9zu {
+    font-size: 40px;
+  }
+}
+/*!***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[11].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[11].oneOf[9].use[5]!./src/components/homePageComponents/location/Location.module.scss ***!
+  \***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.Location_container__57tfV {
+  display: flex;
+  height: 80vh;
+  padding: 80px 25px;
+  width: 100%;
+}
+@media (max-width: 768px) {
+  .Location_container__57tfV {
+    flex-direction: column-reverse;
+    height: 140vh;
+  }
+}
+
+.Location_form__ZKFLt {
+  width: 100%;
+  padding: 25px;
+  background-color: #fff;
+}
+.Location_form__ZKFLt:hover {
+  transition: all 0.5s ease;
+  border-radius: 0 0 0 50px;
+}
+@media (max-width: 768px) {
+  .Location_form__ZKFLt {
+    height: 50%;
+  }
+}
+
+.Location_map__47U2y {
+  width: 100%;
+}
+@media (max-width: 768px) {
+  .Location_map__47U2y {
+    height: 50%;
+  }
+}
 /*!*************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[11].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[11].oneOf[9].use[5]!./src/components/social-medias/SocialMedias.module.scss ***!
   \*************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
@@ -256,20 +289,54 @@
   color: aliceblue;
   background-color: #daa520;
 }
-/*!***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[11].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[11].oneOf[9].use[5]!./src/components/mobile-enter/MobileEnter.module.scss ***!
-  \***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
-.MobileEnter_container__n63Be {
+/*!********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[11].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[11].oneOf[9].use[5]!./src/components/logo/Logo.module.scss ***!
+  \********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.Logo_container__1LJ4r {
+  overflow: hidden;
+  width: 80px;
+  height: 80px;
+}
+.Logo_container__1LJ4r img {
+  transform: translate(-30%, -5%);
+}
+
+.Logo_wrapper__au2M_ {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: rgba(2, 44, 25, 0.95);
+  border-radius: 50%;
+  width: 130px;
+  height: 130px;
+  transform: scale(0.6);
+  transition: all 0.3s ease;
+}
+
+.Logo_name__3N7Yh {
+  color: aliceblue;
+  font-size: 10px;
+}
+
+.Logo_surName__NYXSd {
+  color: #daa520;
+  margin-bottom: 20px;
+}
+/*!******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[11].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[11].oneOf[9].use[5]!./src/components/homePageComponents/mobile-enter/MobileEnter.module.scss ***!
+  \******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.MobileEnter_container__JeUUF {
   display: none;
 }
 @media (max-width: 468px) {
-  .MobileEnter_container__n63Be {
+  .MobileEnter_container__JeUUF {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100vw;
     height: 100vh;
-    background-color: rgba(2, 44, 25, 0.95);
+    background-color: rgb(2, 44, 25);
     z-index: 100;
     position: fixed;
     top: 0;
@@ -278,8 +345,8 @@
   }
 }
 
-.MobileEnter_continue__uVacs {
-  margin-bottom: 40px;
+.MobileEnter_continue__8to_E {
+  margin-top: 80px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -289,15 +356,15 @@
   transform: scale(0.7);
   z-index: 101;
 }
-.MobileEnter_continue__uVacs p {
+.MobileEnter_continue__8to_E p {
   padding: 0;
   margin: 0;
   font-size: 18px;
   color: aliceblue;
 }
 
-.MobileEnter_social__ds0Rc {
-  margin-top: -50px;
+.MobileEnter_social__RD57l {
+  margin-top: -30px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -308,28 +375,25 @@
   align-items: center;
 }
 
-.MobileEnter_logo__Tswwf {
-  position: relative;
-  width: 200px;
-  height: 200px;
-  overflow: hidden;
-}
-.MobileEnter_logo__Tswwf img {
-  transform: translate(7%, -20%);
+.MobileEnter_logo__NkY8X {
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 0 auto;
+  transform: translateY(40%) scale(250%);
 }
 
-.MobileEnter_wrapper__9_bN2 {
+.MobileEnter_wrapper__d_U_o {
   display: flex;
   justify-content: center;
-  width: 90vw;
-  height: 90vh;
+  width: 95vw;
+  height: 95vh;
   background-image: url("/iphone.png");
   background-size: contain;
   background-repeat: no-repeat;
   z-index: 100;
 }
 
-.MobileEnter_overlay__tWncU {
+.MobileEnter_overlay__dwbHL {
   position: fixed;
   top: 0;
   left: 0;
@@ -340,17 +404,17 @@
   display: none;
 }
 
-.MobileEnter_container__n63Be.MobileEnter_open__faIZg {
+.MobileEnter_container__JeUUF.MobileEnter_open__rQa9J {
   transform: translateX(0);
 }
 
-.MobileEnter_icon__uD7jw {
+.MobileEnter_icon__12Rf5 {
   font-size: 32px;
   color: aliceblue;
-  animation: MobileEnter_blink__CWL7o 1.5s infinite;
+  animation: MobileEnter_blink__lQfgO 1.5s infinite;
 }
 
-@keyframes MobileEnter_blink__CWL7o {
+@keyframes MobileEnter_blink__lQfgO {
   0%, 100% {
     opacity: 1;
   }
@@ -358,45 +422,121 @@
     opacity: 0;
   }
 }
-/*!****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[11].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[11].oneOf[9].use[5]!./src/components/servises/Servises.module.scss ***!
-  \****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
-.Servises_container__XJhfE {
+/*!******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[11].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[11].oneOf[9].use[5]!./src/components/homePageComponents/why-we/WhyWe.module.scss ***!
+  \******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.WhyWe_container__a0Eu3 {
+  padding: 80px 25px;
+  background-color: rgba(2, 44, 25, 0.95);
+}
+
+.WhyWe_title__QjrIP {
+  font-size: 60px;
+  text-transform: uppercase;
+  padding: 80px 0;
+  padding-top: 0;
+  font-weight: 400;
+  color: aliceblue;
+}
+@media (max-width: 768px) {
+  .WhyWe_title__QjrIP {
+    font-size: 40px;
+  }
+}
+
+.WhyWe_items__TGpem {
+  display: flex;
+}
+@media (max-width: 1200px) {
+  .WhyWe_items__TGpem {
+    flex-direction: column;
+  }
+}
+
+.WhyWe_item__hwRg5 {
+  width: 33.3%;
+  padding: 0 50px;
+  border-left: 2px solid aliceblue;
+}
+@media (max-width: 1200px) {
+  .WhyWe_item__hwRg5 {
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid aliceblue;
+    padding: 50px 0;
+  }
+}
+
+.WhyWe_itemTitle__M9YVg {
+  height: 100px;
+  font-size: 32px;
+  font-weight: 400;
+  text-align: center;
+  color: #daa520;
+}
+@media (max-width: 1200px) {
+  .WhyWe_itemTitle__M9YVg {
+    text-align: start;
+  }
+}
+
+.WhyWe_description__jyPgy {
+  text-align: center;
+  color: aliceblue;
+  font-size: 20px;
+}
+@media (max-width: 1200px) {
+  .WhyWe_description__jyPgy {
+    text-align: start;
+  }
+}
+/*!*******************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[3]!./src/app/page.module.css ***!
+  \*******************************************************************************************************************************************************************************************************************************************************************/
+.page_container__aoG4z {
+  flex-grow: 1;
+  background-color: aliceblue;
+}
+
+/*!***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[11].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[11].oneOf[9].use[5]!./src/components/homePageComponents/servises/Servises.module.scss ***!
+  \***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.Servises_container__Cy8aQ {
   padding: 80px 25px;
 }
 
-.Servises_title__EdDTd {
+.Servises_title__dJkuT {
   font-size: 60px;
   font-weight: 400;
   padding: 80px 0;
 }
 @media (max-width: 768px) {
-  .Servises_title__EdDTd {
+  .Servises_title__dJkuT {
     font-size: 40px;
   }
 }
 
-.Servises_item__GHvr1 {
+.Servises_item__j_r_R {
   display: flex;
   overflow: hidden;
   padding-top: 0;
   margin: 40px 0;
   transition: all 0.3s ease;
 }
-.Servises_item__GHvr1:hover {
+.Servises_item__j_r_R:hover {
   border-radius: 0 0 50px 0;
 }
-.Servises_item__GHvr1:hover {
+.Servises_item__j_r_R:hover {
   background-color: #666666;
   color: aliceblue;
 }
 @media (max-width: 1200px) {
-  .Servises_item__GHvr1 {
+  .Servises_item__j_r_R {
     flex-wrap: wrap;
   }
 }
 
-.Servises_number__BYneW {
+.Servises_number__Xxt7I {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -406,148 +546,41 @@
   color: inherit;
 }
 
-.Servises_description__O39ue {
+.Servises_description___Tpsw {
   width: 40%;
   padding: 80px 0;
 }
-.Servises_description__O39ue h2 {
+.Servises_description___Tpsw h2 {
   padding: 10px 0;
   font-size: 40px;
   font-weight: 400;
   color: inherit;
 }
-.Servises_description__O39ue p {
+.Servises_description___Tpsw p {
   color: inherit;
   padding: 10px 0;
 }
 @media (max-width: 1200px) {
-  .Servises_description__O39ue {
+  .Servises_description___Tpsw {
     width: 80%;
   }
 }
 
-.Servises_img__9Qe7J {
+.Servises_img___iKBG {
   position: relative;
   width: 40%;
   flex-grow: 2;
 }
-.Servises_img__9Qe7J:hover {
+.Servises_img___iKBG:hover {
   transition: all 0.3s ease;
   transform: translate(10px, -10px);
 }
 @media (max-width: 1200px) {
-  .Servises_img__9Qe7J {
+  .Servises_img___iKBG {
     height: 300px;
   }
 }
 
-.Servises_image__7A_GZ {
+.Servises_image__WoQuf {
   transform: translate(10px, -10px);
-}
-/*!****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[11].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[11].oneOf[9].use[5]!./src/components/location/Location.module.scss ***!
-  \****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
-.Location_container__6BSVQ {
-  display: flex;
-  height: 80vh;
-  padding: 80px 25px;
-  width: 100%;
-}
-@media (max-width: 768px) {
-  .Location_container__6BSVQ {
-    flex-direction: column-reverse;
-    height: 140vh;
-  }
-}
-
-.Location_form__ldgnO {
-  width: 100%;
-  padding: 25px;
-  background-color: #fff;
-}
-.Location_form__ldgnO:hover {
-  transition: all 0.5s ease;
-  border-radius: 0 0 0 50px;
-}
-@media (max-width: 768px) {
-  .Location_form__ldgnO {
-    height: 50%;
-  }
-}
-
-.Location_map__d26Eh {
-  width: 100%;
-}
-@media (max-width: 768px) {
-  .Location_map__d26Eh {
-    height: 50%;
-  }
-}
-/*!***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[11].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[11].oneOf[9].use[5]!./src/components/why-we/WhyWe.module.scss ***!
-  \***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
-.WhyWe_container__yk_Jq {
-  padding: 80px 25px;
-  background-color: rgba(2, 44, 25, 0.95);
-}
-
-.WhyWe_title__QQ4_W {
-  font-size: 60px;
-  text-transform: uppercase;
-  padding: 80px 0;
-  padding-top: 0;
-  font-weight: 400;
-  color: aliceblue;
-}
-@media (max-width: 768px) {
-  .WhyWe_title__QQ4_W {
-    font-size: 40px;
-  }
-}
-
-.WhyWe_items__xJRLI {
-  display: flex;
-}
-@media (max-width: 1200px) {
-  .WhyWe_items__xJRLI {
-    flex-direction: column;
-  }
-}
-
-.WhyWe_item__MWmpy {
-  width: 33.3%;
-  padding: 0 50px;
-  border-left: 2px solid aliceblue;
-}
-@media (max-width: 1200px) {
-  .WhyWe_item__MWmpy {
-    width: 100%;
-    border: none;
-    border-bottom: 2px solid aliceblue;
-    padding: 50px 0;
-  }
-}
-
-.WhyWe_itemTitle__4RJQi {
-  height: 100px;
-  font-size: 32px;
-  font-weight: 400;
-  text-align: center;
-  color: #daa520;
-}
-@media (max-width: 1200px) {
-  .WhyWe_itemTitle__4RJQi {
-    text-align: start;
-  }
-}
-
-.WhyWe_description__nzgIV {
-  text-align: center;
-  color: aliceblue;
-  font-size: 20px;
-}
-@media (max-width: 1200px) {
-  .WhyWe_description__nzgIV {
-    text-align: start;
-  }
 }

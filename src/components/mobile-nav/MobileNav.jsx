@@ -3,13 +3,12 @@ import { useEffect } from 'react';
 import NavLink from '../nav-link/NavLink';
 import SocialMedias from '../social-medias/SocialMedias';
 import st from './MobileNav.module.scss';
-import { AiFillFacebook, AiFillInstagram } from 'react-icons/ai';
 
 const MobileNav = ({ show }) => {
   const navItems = [
-    { link: '/', name: 'HOME' },
-    { link: '/prices', name: 'PRICES' },
-    { link: '/', name: 'HOME' },
+    { link: '/', name: 'ГОЛОВНА' },
+    { link: '/prices', name: 'ЦІНИ' },
+    { link: '/servises', name: 'ПОСЛУГИ' },
   ];
 
   const toggleBodyScroll = () => {

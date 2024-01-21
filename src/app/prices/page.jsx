@@ -2,7 +2,8 @@
 
 import { useState } from 'react';
 import st from './Prices.module.scss';
-import classNames from 'classnames';
+import { Transition } from '../../components/Transition';
+import Ansver from '../../components/pricesPageComponents/ansver/Ansver';
 
 const items = [
   {
@@ -30,40 +31,100 @@ const Prices = () => {
 
   return (
     <div className={st.container}>
+      <div className={st.fake}></div>
       <h1 className={st.title}>ЦІНИ</h1>
       <div className={st.list}>
         {items.map((item) => (
           <>
-            <hr />
-            <div
-              className={st.item}
-              key={item.name}
-              onClick={() => setActive(isActive(item.name) ? '' : item.name)}
-            >
-              <div className={st.itemTitle}>
-                <div className={st.name}>{item.name}</div>
-                <div className={st.action}>{isActive(item.name) ? '-' : '+'}</div>
-              </div>
+            <Transition>
+              <hr />
               <div
-                style={{
-                  maxHeight: isActive(item.name) ? '500px' : '0',
-                  transition: 'max-height 0.5s ease',
-                  overflow: 'hidden',
-                }}
-                className={st.children}
+                className={st.item}
+                key={item.name}
+                onClick={() => setActive(isActive(item.name) ? '' : item.name)}
               >
-                {item.children.map((child) => (
-                  <div className={st.description} key={child.servise}>
-                    <div className={st.servise}>{child.servise}</div>
-                    <div className={st.price}>{child.price} грн</div>
-                  </div>
-                ))}
-              </div>
-            </div>{' '}
+                <div className={st.itemTitle}>
+                  <div className={st.name}>{item.name}</div>
+                  <div className={st.action}>{isActive(item.name) ? '-' : '+'}</div>
+                </div>
+                <div
+                  style={{
+                    maxHeight: isActive(item.name) ? '500px' : '0',
+                    transition: 'max-height 0.5s ease',
+                    overflow: 'hidden',
+                  }}
+                  className={st.children}
+                >
+                  {item.children.map((child) => (
+                    <div className={st.description} key={child.servise}>
+                      <div className={st.servise}>{child.servise}</div>
+                      <div className={st.price}>{child.price} грн</div>
+                    </div>
+                  ))}
+                </div>
+              </div>{' '}
+            </Transition>
+            <Transition>
+              <hr />
+              <div
+                className={st.item}
+                key={item.name}
+                onClick={() => setActive(isActive(item.name) ? '' : item.name)}
+              >
+                <div className={st.itemTitle}>
+                  <div className={st.name}>{item.name}</div>
+                  <div className={st.action}>{isActive(item.name) ? '-' : '+'}</div>
+                </div>
+                <div
+                  style={{
+                    maxHeight: isActive(item.name) ? '500px' : '0',
+                    transition: 'max-height 0.5s ease',
+                    overflow: 'hidden',
+                  }}
+                  className={st.children}
+                >
+                  {item.children.map((child) => (
+                    <div className={st.description} key={child.servise}>
+                      <div className={st.servise}>{child.servise}</div>
+                      <div className={st.price}>{child.price} грн</div>
+                    </div>
+                  ))}
+                </div>
+              </div>{' '}
+            </Transition>
+            <Transition>
+              <hr />
+              <div
+                className={st.item}
+                key={item.name}
+                onClick={() => setActive(isActive(item.name) ? '' : item.name)}
+              >
+                <div className={st.itemTitle}>
+                  <div className={st.name}>{item.name}</div>
+                  <div className={st.action}>{isActive(item.name) ? '-' : '+'}</div>
+                </div>
+                <div
+                  style={{
+                    maxHeight: isActive(item.name) ? '500px' : '0',
+                    transition: 'max-height 0.5s ease',
+                    overflow: 'hidden',
+                  }}
+                  className={st.children}
+                >
+                  {item.children.map((child) => (
+                    <div className={st.description} key={child.servise}>
+                      <div className={st.servise}>{child.servise}</div>
+                      <div className={st.price}>{child.price} грн</div>
+                    </div>
+                  ))}
+                </div>
+              </div>{' '}
+            </Transition>
           </>
         ))}
         <hr />
       </div>
+      <Ansver />
     </div>
   );
 };

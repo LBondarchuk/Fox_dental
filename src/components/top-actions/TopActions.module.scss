@@ -13,6 +13,7 @@
 
 .icon {
   font-size: 32px;
+  color: $secondary-font;
   display: none;
   @include medium {
     display: block;

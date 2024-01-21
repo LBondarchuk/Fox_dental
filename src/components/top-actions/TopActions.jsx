@@ -11,7 +11,6 @@ import HeaderForm from '../forms/header-form/HeaderForm';
 
 const TopActions = ({ show, setShow, hasScroll }) => {
   const [showModal, setShowModal] = useState(false);
-  console.log(showModal, setShowModal, 'd');
   return (
     <div className={st.container}>
       <label>
@@ -25,7 +24,7 @@ const TopActions = ({ show, setShow, hasScroll }) => {
         </div>
       </label>
       <Modal show={showModal} setShow={setShowModal}>
-        <HeaderForm />
+        <HeaderForm setShowModal={setShowModal} />
       </Modal>
       <Button onClick={() => setShowModal(true)} />
 

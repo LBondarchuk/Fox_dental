@@ -3,9 +3,9 @@ import st from './Nav.module.scss';
 
 const Nav = () => {
   const navItems = [
-    { link: '/', name: 'HOME' },
-    { link: '/prices', name: 'PRICES' },
-    { link: '/', name: 'HOME' },
+    { link: '/', name: 'ГОЛОВНА' },
+    { link: '/prices', name: 'ЦІНИ' },
+    { link: '/servises', name: 'ПОСЛУГИ' },
   ];
   return (
     <div className={st.container}>

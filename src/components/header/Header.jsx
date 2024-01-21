@@ -7,8 +7,11 @@ import st from './Header.module.scss';
 import classNames from 'classnames';
 import MobileNav from '../mobile-nav/MobileNav';
 import Image from 'next/image';
+import { usePathname } from 'next/navigation';
+import Logo from '../logo/Logo';
 
 const Header = () => {
+  const pathname = usePathname();
   const [show, setShow] = useState(false);
   const [hasScroll, setHasScroll] = useState(false);
   useEffect(() => {
@@ -23,6 +26,11 @@ const Header = () => {
     };
   }, [hasScroll]);
 
+  useEffect(() => {
+    setShow(false);
+    window.scrollTo(0, 0);
+  }, [pathname]);
+
   return (
     <div className={st.wrapper}>
       <div
@@ -30,10 +38,7 @@ const Header = () => {
           [st.scroll]: hasScroll,
         })}
       >
-        <span className={st.logo}>
-          {' '}
-          <Image className={st.image} src='/logo.png' alt='Banner Image' width={150} height={150} />
-        </span>
+        <Logo style={{ backgroundColor: hasScroll ? 'transparent' : 'rgba(2, 44, 25, 0.95)' }} />
         <Nav />
         <MobileNav show={show} />
         <TopActions setShow={setShow} show={show} />
