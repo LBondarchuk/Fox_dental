@@ -1,6 +1,5 @@
 'use client';
-import { useEffect } from 'react';
-import { motion, useAnimation } from 'framer-motion';
+import { motion } from 'framer-motion';
 import NavLink from '../nav-link/NavLink';
 import SocialMedias from '../social-medias/SocialMedias';
 import st from './MobileNav.module.scss';
@@ -13,27 +12,10 @@ const MobileNav = ({ show }) => {
     { link: '/contacts', name: 'КОНТАКТИ' },
   ];
 
-  const controls = useAnimation();
-
-  useEffect(() => {
-    controls.start(show ? 'visible' : 'hidden');
-  }, [show, controls]);
-
-  useEffect(() => {
-    if (show) {
-      controls.start({
-        opacity: 1,
-        y: 0,
-        transition: { delay: 0.2, staggerChildren: 0.1 },
-      });
-    }
-  }, [show, controls]);
-
   return (
     <>
       <motion.div
         className={st.overlay}
-        initial='hidden'
         animate={show ? 'visible' : 'hidden'}
         variants={{
           visible: { opacity: 1 },
@@ -43,12 +25,7 @@ const MobileNav = ({ show }) => {
       ></motion.div>
       <motion.div
         className={st.container}
-        initial='hidden'
-        animate={controls}
-        variants={{
-          visible: { transform: 'translateX(0%)' },
-          hidden: { transform: 'translateX(100%)' },
-        }}
+        animate={show ? { transform: 'translateX(0%)' } : { transform: 'translateX(100%)' }}
         transition={{ type: 'spring', duration: 0.5, stiffness: 260, damping: 20 }}
       >
         <motion.div
