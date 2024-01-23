@@ -28,8 +28,8 @@ const MobileNav = memo(({ show }) => {
         className={st.container}
         animate={
           show
-            ? { width: '100vw', height: '100vh', scale: 1 }
-            : { width: 0, overflow: 'hidden', scale: 0, height: 0 }
+            ? { width: '100vw', height: '100vh', scale: 1, borderRadius: 0 }
+            : { width: 0, overflow: 'hidden', scale: 0, height: 0, borderRadius: '100%' }
         }
         transition={{ type: 'spring', duration: 2, stiffness: 260, damping: 20 }}
       >
