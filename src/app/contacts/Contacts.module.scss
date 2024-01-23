@@ -1,0 +1,66 @@
+@import '../../utils/styles/variables.scss';
+@import '../../utils/styles/breckpoints.scss';
+
+.container {
+  background-color: $medium-font;
+  color: $secondary-font;
+  padding-top: 80px;
+}
+
+.title {
+  padding: 100px 25px 0;
+  color: $main-green;
+}
+
+.contacts {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 70%;
+  padding: 40px 25px;
+
+  @include medium {
+    flex-direction: column;
+    align-items: start;
+    gap: 30px;
+  }
+}
+
+.numbers {
+  width: 50%;
+  & a {
+    color: inherit;
+    text-decoration: none;
+    transition: all 0.3s ease;
+
+    &:hover {
+      color: $main-gold;
+    }
+
+    & h2 {
+      font-size: 40px;
+    }
+  }
+}
+
+.findUs {
+  width: 70%;
+  @include medium {
+    width: 100%;
+  }
+  & p {
+    width: 50%;
+    margin-left: auto;
+    @include medium {
+      width: 100%;
+      margin: 0;
+      padding: 40px 25px;
+    }
+
+    padding-bottom: 40px;
+  }
+}
+
+.location {
+  background-color: $main-gold;
+}

@@ -5,9 +5,9 @@ import { AiFillFacebook, AiFillInstagram } from 'react-icons/ai';
 const SocialMedias = ({ style }) => {
   return (
     <div className={st.container}>
-      <div className={st.sociall} style={style}>
+      <div className={st.sociall}>
         <Link href='https://www.facebook.com/FoxxxxDental/' target='blanc'>
-          <div className={st.border}>
+          <div className={st.border} style={style}>
             <AiFillFacebook className={st.icon} />
           </div>
         </Link>

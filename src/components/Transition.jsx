@@ -1,23 +1,20 @@
 'use client';
 import React from 'react';
+import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 
-export const Transition = ({ children, bacground = '#fff' }) => {
-  const { ref, inView } = useInView({
-    threshold: 0.1,
+export const Transition = ({ children, background = '#fff' }) => {
+  const [ref, inView] = useInView({
     triggerOnce: true,
   });
 
   return (
-    <div
+    <motion.div
       ref={ref}
-      style={{
-        transition: 'all 0.8s ease',
-        opacity: !inView ? 0.3 : 1,
-        paddingTop: !inView ? 100 : 0,
-      }}
+      animate={inView ? { y: 0, opacity: 1, scale: 1 } : { y: 100, opacity: 0, scale: 1.2 }}
+      transition={{ duration: 0.8, ease: 'easeInOut' }}
     >
       {children}
-    </div>
+    </motion.div>
   );
 };

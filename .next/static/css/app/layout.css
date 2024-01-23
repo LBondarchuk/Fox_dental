@@ -23,6 +23,7 @@ body {
 
 a {
   text-decoration: none;
+  color: inherit;
 }
 
 .modal-content {
@@ -126,7 +127,6 @@ a {
 }
 .NavLink_container__C_vPj a:hover {
   color: #daa520;
-  cursor: pointer;
 }
 
 .NavLink_scroll__yU76l {
