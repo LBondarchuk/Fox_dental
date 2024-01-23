@@ -26,8 +26,12 @@ const MobileNav = memo(({ show }) => {
       ></motion.div>
       <motion.div
         className={st.container}
-        animate={show ? { width: '100vw', scale: 1 } : { width: 0, overflow: 'hidden', scale: 0 }}
-        transition={{ type: 'spring', duration: 0.5, stiffness: 260, damping: 20 }}
+        animate={
+          show
+            ? { width: '100vw', height: '100vh', scale: 1 }
+            : { width: 0, overflow: 'hidden', scale: 0, height: 0 }
+        }
+        transition={{ type: 'spring', duration: 2, stiffness: 260, damping: 20 }}
       >
         <motion.div
           className={st.links}
