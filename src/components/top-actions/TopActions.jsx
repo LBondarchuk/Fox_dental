@@ -8,8 +8,9 @@ import { FiAlignJustify } from 'react-icons/fi';
 import { FiAlignRight } from 'react-icons/fi';
 import { AiFillPhone } from 'react-icons/ai';
 import HeaderForm from '../forms/header-form/HeaderForm';
+import { memo } from 'react';
 
-const TopActions = ({ show, setShow, hasScroll }) => {
+const TopActions = memo(({ show, setShow, hasScroll }) => {
   const [showModal, setShowModal] = useState(false);
   return (
     <div className={st.container}>
@@ -39,6 +40,6 @@ const TopActions = ({ show, setShow, hasScroll }) => {
       )}
     </div>
   );
-};
+});
 
 export default TopActions;

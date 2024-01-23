@@ -3,14 +3,16 @@ import { motion } from 'framer-motion';
 import NavLink from '../nav-link/NavLink';
 import SocialMedias from '../social-medias/SocialMedias';
 import st from './MobileNav.module.scss';
+import { memo } from 'react';
 
-const MobileNav = ({ show }) => {
+const MobileNav = memo(({ show }) => {
   const navItems = [
     { link: '/', name: 'ГОЛОВНА' },
     { link: '/prices', name: 'ЦІНИ' },
     { link: '/servises', name: 'ПОСЛУГИ' },
     { link: '/contacts', name: 'КОНТАКТИ' },
   ];
+ 
 
   return (
     <>
@@ -38,9 +40,7 @@ const MobileNav = ({ show }) => {
           animate='visible'
         >
           {navItems.map((item) => (
-            <motion.div key={item.name} variants={{ hidden: {}, visible: {} }}>
-              <NavLink item={item} />
-            </motion.div>
+            <NavLink item={item} />
           ))}
         </motion.div>
         <div style={{ marginBottom: 100 }}>
@@ -49,6 +49,6 @@ const MobileNav = ({ show }) => {
       </motion.div>
     </>
   );
-};
+});
 
 export default MobileNav;
