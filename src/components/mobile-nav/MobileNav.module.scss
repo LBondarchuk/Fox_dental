@@ -2,8 +2,6 @@
 @import '../../utils/styles/variables.scss';
 .container {
   display: none;
-
-  transition: all 0.3s ease;
   @include medium {
     display: flex;
     flex-direction: column;

@@ -12,7 +12,6 @@ const MobileNav = memo(({ show }) => {
     { link: '/servises', name: 'ПОСЛУГИ' },
     { link: '/contacts', name: 'КОНТАКТИ' },
   ];
- 
 
   return (
     <>
@@ -27,7 +26,7 @@ const MobileNav = memo(({ show }) => {
       ></motion.div>
       <motion.div
         className={st.container}
-        animate={show ? { transform: 'translateX(0%)' } : { transform: 'translateX(100%)' }}
+        animate={show ? { width: '100vw', scale: 1 } : { width: 0, overflow: 'hidden', scale: 0 }}
         transition={{ type: 'spring', duration: 0.5, stiffness: 260, damping: 20 }}
       >
         <motion.div
