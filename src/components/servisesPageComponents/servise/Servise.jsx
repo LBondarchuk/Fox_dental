@@ -1,22 +1,23 @@
 import st from './Servise.module.scss';
 import Image from 'next/image';
 import { Transition } from '../../Transition';
+import LearnMoreIcon from '@/components/learn-more/LearnMore';
 
-const Servise = ({ onShpwModal }) => {
+const Servise = ({ onShowModal, item }) => {
+  console.log(item, 'ss');
   return (
-    <div className={st.container} onClick={onShpwModal}>
+    <div className={st.container} onClick={onShowModal}>
       <div className={st.image}>
         <Image src='/2.jpeg' alt='Banner Image' layout='fill' objectFit='cover' />
       </div>
       <Transition>
+        <div className={st.learnMore}>
+          <LearnMoreIcon isGreen />
+        </div>
         <div className={st.text}>
           {' '}
-          <h3>Консультація та Діагностика</h3>
-          <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo tenetur quae ratione
-            alias eaque placeat ut, fugiat, eligendi veniam explicabo sint aperiam laborum. Facere,
-            impedit aspernatur. Quae mollitia nesciunt laborum.
-          </p>
+          <h3>{item.name}</h3>
+          <p>{item.shortDeacription}</p>
         </div>
       </Transition>
     </div>

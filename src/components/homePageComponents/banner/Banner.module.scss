@@ -9,15 +9,19 @@
 .text {
   position: absolute;
   z-index: 1;
-  font-size: 70px;
-  top: 70%;
+  font-size: 60px;
+  top: 60%;
   left: 25px;
   font-weight: 400;
-  color: $secondary-font;
+  color: $main-green;
   @include small {
     font-size: 30px;
   }
   @include medium {
     font-size: 40px;
   }
+}
+
+.image {
+  object-position: left top;
 }

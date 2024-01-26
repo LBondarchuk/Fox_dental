@@ -183,11 +183,16 @@
 }
 
 .About_rightTop__Isq2B {
+  background-image: url("/smile3.jpeg");
+  background-size: cover;
   height: 60%;
   background-color: gray;
   margin-bottom: 40px;
   border-radius: 0 0 50px 0;
   overflow: hidden;
+}
+.About_rightTop__Isq2B .About_image__VCsLA {
+  object-position: right top;
 }
 
 .About_rightBottom__PaZVS {
@@ -205,11 +210,11 @@
 .Banner_text__J_9zu {
   position: absolute;
   z-index: 1;
-  font-size: 70px;
-  top: 70%;
+  font-size: 60px;
+  top: 60%;
   left: 25px;
   font-weight: 400;
-  color: aliceblue;
+  color: rgba(2, 44, 25, 0.95);
 }
 @media (max-width: 468px) {
   .Banner_text__J_9zu {
@@ -220,6 +225,10 @@
   .Banner_text__J_9zu {
     font-size: 40px;
   }
+}
+
+.Banner_image__4skq7 {
+  object-position: left top;
 }
 /*!*************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[11].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[11].oneOf[9].use[5]!./src/components/social-medias/SocialMedias.module.scss ***!
@@ -425,7 +434,7 @@
 
 .WhyWe_item__hwRg5 {
   width: 33.3%;
-  padding: 0 50px;
+  padding: 0 20px;
   border-left: 2px solid aliceblue;
 }
 @media (max-width: 1200px) {
@@ -443,6 +452,7 @@
   font-weight: 400;
   text-align: center;
   color: #daa520;
+  margin-bottom: 30px;
 }
 @media (max-width: 1200px) {
   .WhyWe_itemTitle__M9YVg {
@@ -464,7 +474,20 @@
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[11].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[11].oneOf[9].use[5]!./src/components/homePageComponents/servises/Servises.module.scss ***!
   \***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 .Servises_container__Cy8aQ {
+  position: relative;
   padding: 80px 25px;
+}
+
+.Servises_learnMore__uBnCF {
+  position: absolute;
+  right: 50%;
+  transform: translateY(100px);
+}
+@media (max-width: 768px) {
+  .Servises_learnMore__uBnCF {
+    right: 50px;
+    transform: translateY(20px);
+  }
 }
 
 .Servises_title__dJkuT {
@@ -484,11 +507,10 @@
   padding-top: 0;
   margin: 40px 0;
   transition: all 0.3s ease;
+  color: rgba(2, 44, 25, 0.95);
 }
 .Servises_item__j_r_R:hover {
   border-radius: 0 0 50px 0;
-}
-.Servises_item__j_r_R:hover {
   background-color: #666666;
   color: aliceblue;
 }
@@ -518,6 +540,11 @@
   font-weight: 400;
   color: inherit;
 }
+@media (max-width: 468px) {
+  .Servises_description___Tpsw h2 {
+    font-size: 30px;
+  }
+}
 .Servises_description___Tpsw p {
   color: inherit;
   padding: 10px 0;
@@ -532,10 +559,11 @@
   position: relative;
   width: 40%;
   flex-grow: 2;
-}
-.Servises_img___iKBG:hover {
+  overflow: hidden;
   transition: all 0.3s ease;
-  transform: translate(10px, -10px);
+}
+.Servises_img___iKBG .Servises_image__WoQuf:hover {
+  transform: scale(1.1);
 }
 @media (max-width: 1200px) {
   .Servises_img___iKBG {
@@ -545,6 +573,23 @@
 
 .Servises_image__WoQuf {
   transform: translate(10px, -10px);
+}
+/*!*******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[11].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[11].oneOf[9].use[5]!./src/components/learn-more/LearnMore.module.scss ***!
+  \*******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.LearnMore_icon__5Doxb {
+  color: #daa520;
+  font-size: 32px;
+  transform: scale(2);
+  transition: all 0.5s ease;
+}
+.LearnMore_icon__5Doxb:hover {
+  transform: scale(3);
+  cursor: pointer;
+}
+
+.LearnMore_green__QNI19 {
+  color: rgba(2, 44, 25, 0.95);
 }
 /*!***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[11].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[11].oneOf[9].use[5]!./src/components/homePageComponents/location/Location.module.scss ***!

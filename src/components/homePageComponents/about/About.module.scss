@@ -98,11 +98,17 @@
 }
 
 .rightTop {
+  background-image: url('/smile3.jpeg');
+  background-size: cover;
   height: 60%;
   background-color: gray;
   margin-bottom: 40px;
   border-radius: 0 0 50px 0;
   overflow: hidden;
+
+  & .image {
+    object-position: right top;
+  }
 }
 .rightBottom {
   height: 20%;

@@ -1,84 +1,44 @@
 'use client';
-
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import st from './Prices.module.scss';
-import { Transition } from '../../components/Transition';
-import Ansver from '../../components/pricesPageComponents/ansver/Ansver';
 
-const items = [
-  {
-    name: 'Консультації',
-    children: [
-      {
-        servise: 'Огляд та консультація до 20 хвилин',
-        price: '750',
-      },
-      {
-        servise: 'Огляд та консультація до 20 хвилин',
-        price: '750',
-      },
-      {
-        servise: 'Огляд та консультація до 20 хвилин',
-        price: '750',
-      },
-    ],
-  },
-  {
-    name: 'Консулdьтації',
-    children: [
-      {
-        servise: 'Огляд та консультація до 20 хвилин',
-        price: '750',
-      },
-      {
-        servise: 'Огляд та консультація до 20 хвилин',
-        price: '750',
-      },
-      {
-        servise: 'Огляд та консультація до 20 хвилин',
-        price: '750',
-      },
-    ],
-  },
-  {
-    name: 'Консультацdії',
-    children: [
-      {
-        servise: 'Огляд та консультація до 20 хвилин',
-        price: '750',
-      },
-      {
-        servise: 'Огляд та консультація до 20 хвилин',
-        price: '750',
-      },
-      {
-        servise: 'Огляд та консультація до 20 хвилин',
-        price: '750',
-      },
-    ],
-  },
-];
+import Ansver from '@/components/pricesPageComponents/ansver/Ansver';
+import { Transition } from '@/components/Transition';
+import { motion } from 'framer-motion';
+import { fetchData } from '@/utils/api';
 
 const Prices = () => {
+  const [items, setItems] = useState([]);
   const [active, setActive] = useState(null);
   const isActive = (name) => active === name;
 
+  useEffect(() => {
+    fetchData('prices', setItems);
+  }, []);
+  console.log(items[0] ? items[0].servises : 'g');
   return (
     <div className={st.container}>
       <div className={st.fake}></div>
       <h1 className={st.title}>ЦІНИ</h1>
       <div className={st.list}>
         {items.map((item) => (
-          <Transition>
+          <Transition key={item.id}>
             <hr />
             <div
               className={st.item}
-              key={item.name}
               onClick={() => setActive(isActive(item.name) ? '' : item.name)}
             >
               <div className={st.itemTitle}>
                 <div className={st.name}>{item.name}</div>
-                <div className={st.action}>{isActive(item.name) ? '-' : '+'}</div>
+                <motion.span
+                  animate={{
+                    rotate: isActive(item.name) ? 0 : 90,
+                  }}
+                  transition={{ duration: 0.5 }}
+                >
+                  {' '}
+                  <div className={st.action}>{isActive(item.name) ? '-' : '+'}</div>
+                </motion.span>
               </div>
               <div
                 style={{
@@ -88,14 +48,14 @@ const Prices = () => {
                 }}
                 className={st.children}
               >
-                {item.children.map((child) => (
-                  <div className={st.description} key={child.servise}>
-                    <div className={st.servise}>{child.servise}</div>
+                {item.servises.map((child) => (
+                  <div className={st.description} key={child.name}>
+                    <div className={st.servise}>{child.name}</div>
                     <div className={st.price}>{child.price} грн</div>
                   </div>
                 ))}
               </div>
-            </div>{' '}
+            </div>
           </Transition>
         ))}
         <hr />

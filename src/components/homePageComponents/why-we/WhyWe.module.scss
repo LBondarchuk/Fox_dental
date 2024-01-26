@@ -30,7 +30,7 @@
 
 .item {
   width: 33.3%;
-  padding: 0 50px;
+  padding: 0 20px;
   border-left: 2px solid $secondary-font;
 
   @include large {
@@ -47,6 +47,7 @@
   font-weight: 400;
   text-align: center;
   color: $main-gold;
+  margin-bottom: 30px;
 
   @include large {
     text-align: start;

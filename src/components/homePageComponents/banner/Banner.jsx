@@ -2,7 +2,7 @@
 import Image from 'next/image';
 import st from './Banner.module.scss';
 import { motion } from 'framer-motion';
-const text = 'CУЧАСНА СТОМАТОЛОГІЯ У МІСТІ ВІННИЦЯ'.split(' ');
+const text = "Fox Dental: Ваш Шлях до Здоров'я та Яскравої Усмішки".toUpperCase().split(' ');
 
 const Banner = () => {
   return (
@@ -25,10 +25,11 @@ const Banner = () => {
       </h1>
       <Image
         className={st.image}
-        src='/b.jpeg'
+        src='/banner.jpg'
         alt='Banner Image'
         layout='fill'
         objectFit='cover'
+        quality={80}
       />
       <div className={st.overlay}></div>
     </div>

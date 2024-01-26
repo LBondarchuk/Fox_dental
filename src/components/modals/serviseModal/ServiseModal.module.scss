@@ -1,0 +1,25 @@
+@import '../../../utils/styles/variables.scss';
+.container {
+  & p {
+    padding: 25px 0;
+  }
+}
+
+.li::before {
+  content: 'f';
+  color: transparent;
+  display: inline-block;
+  position: relative;
+  top: 8px;
+  left: -8px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: $main-gold;
+}
+
+.li {
+  list-style-type: none;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}

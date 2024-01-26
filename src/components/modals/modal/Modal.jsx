@@ -1,28 +1,38 @@
-import Button from '../../button/Button';
-import Modal from 'react-bootstrap/Modal';
-import st from './Modal.module.scss';
+import React from 'react';
+import { motion } from 'framer-motion';
+import { FaTimes } from 'react-icons/fa';
 import classNames from 'classnames';
+import st from './Modal.module.scss';
 
-function CustomModal({ show, setShow, children, header = 'Записатись', isServise }) {
-  const handleClose = () => setShow(false);
+function CustomModal({ show, setShow, children, isServise }) {
+  const handleClose = (e) => {
+    if (e.target.classList.contains(st.Container)) {
+      setShow(false);
+    }
+  };
 
   return (
-    <Modal
-      show={show}
-      onHide={handleClose}
-      dialogClassName={classNames({ [st.customModal]: isServise })}
+    <motion.div
+      className={st.Container}
+      animate={{
+        scale: show ? 1 : 0,
+        borderRadius: show ? 0 : '100%',
+      }}
+      initial={{ scale: 0 }}
+      transition={{ duration: 0.3 }}
+      onClick={handleClose}
     >
-      <Modal.Header closeButton>
-        <Modal.Title
-          style={{ textTransform: 'uppercase', fontSize: 32, fontWeight: 400, textAlign: 'center' }}
-        >
-          {header}
-        </Modal.Title>
-      </Modal.Header>
-      <Modal.Body>
-        <div className={st.container}>{children}</div>
-      </Modal.Body>
-    </Modal>
+      <div
+        className={classNames(st.modal, {
+          [st.servises]: isServise,
+        })}
+      >
+        <div className={st.close}>
+          <FaTimes className={st.icon} onClick={() => setShow(false)} />
+        </div>
+        <div>{children}</div>
+      </div>
+    </motion.div>
   );
 }
 

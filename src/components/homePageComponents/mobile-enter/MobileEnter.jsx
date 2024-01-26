@@ -8,7 +8,15 @@ import SocialMedias from '../../social-medias/SocialMedias';
 import Logo from '../../logo/Logo';
 
 const MobileEnter = () => {
-  const [isMenuOpen, setIsMenuOpen] = useState(true);
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+  useEffect(() => {
+    const menuOpened = localStorage.getItem('menuOpened');
+    console.log(menuOpened, 'men');
+    if (!menuOpened) {
+      setIsMenuOpen(true);
+    }
+  }, []);
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
@@ -21,11 +29,6 @@ const MobileEnter = () => {
       const bodyOverflowStyle = isMenuOpen && screenWidth <= 460 ? 'hidden' : 'auto';
       document.body.style.overflow = bodyOverflowStyle;
     };
-
-    const menuOpened = localStorage.getItem('menuOpened');
-    if (menuOpened === 'true') {
-      setIsMenuOpen(false);
-    }
 
     handleResize();
     window.addEventListener('resize', handleResize);

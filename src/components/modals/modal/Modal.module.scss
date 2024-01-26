@@ -1,16 +1,65 @@
 @import '../../../utils/styles/breckpoints.scss';
 @import '../../../utils/styles/variables.scss';
 
-.customModal {
-  max-width: 60vw;
-  margin: 25px auto;
+// .customModal {
+//   max-width: 60vw;
+//   margin: 25px auto;
 
-  & div {
-    background-color: $secondary-font;
-    color: $main-green;
+//   & div {
+//     background-color: $secondary-font;
+//     color: $main-green;
+//   }
+
+//   @include small {
+//     max-width: 90vw;
+//   }
+// }
+
+.Container {
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(122, 120, 120, 0.6);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal {
+  background-color: $secondary-font;
+  width: 450px;
+  height: fit-content;
+  transition: all 0.3s ease;
+  padding: 20px;
+  cursor: pointer;
+  max-height: 90vh;
+  overflow-y: scroll;
+
+  &:hover {
+    border-radius: 0 0 50px 0;
   }
 
   @include small {
-    max-width: 90vw;
+    width: 90vw;
+  }
+}
+
+.servises {
+  width: 80vw;
+}
+
+.icon {
+  display: block;
+  margin-left: auto;
+  font-size: 32px;
+  transition: all 0.3s ease;
+
+  &:hover {
+    transform: scale(1.5);
+    cursor: pointer;
   }
 }

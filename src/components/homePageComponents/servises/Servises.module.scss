@@ -2,7 +2,19 @@
 @import '../../../utils/styles/breckpoints.scss';
 
 .container {
+  position: relative;
   padding: 80px 25px;
+}
+
+.learnMore {
+  position: absolute;
+  right: 50%;
+  transform: translateY(100px);
+
+  @include medium {
+    right: 50px;
+    transform: translateY(20px);
+  }
 }
 
 .title {
@@ -21,11 +33,10 @@
   padding-top: 0;
   margin: 40px 0;
   transition: all 0.3s ease;
-  &:hover {
-    border-radius: 0 0 50px 0;
-  }
+  color: $main-green;
 
   &:hover {
+    border-radius: 0 0 50px 0;
     background-color: $medium-font;
     color: $secondary-font;
   }
@@ -54,6 +65,10 @@
     font-size: 40px;
     font-weight: 400;
     color: inherit;
+
+    @include small {
+      font-size: 30px;
+    }
   }
 
   & p {
@@ -70,9 +85,10 @@
   position: relative;
   width: 40%;
   flex-grow: 2;
-  &:hover {
-    transition: all 0.3s ease;
-    transform: translate(10px, -10px);
+  overflow: hidden;
+  transition: all 0.3s ease;
+  & .image:hover {
+    transform: scale(1.1);
   }
 
   @include large {
