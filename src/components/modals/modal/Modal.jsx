@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { motion } from 'framer-motion';
 import { FaTimes } from 'react-icons/fa';
 import classNames from 'classnames';
@@ -11,6 +11,24 @@ function CustomModal({ show, setShow, children, isServise }) {
     }
   };
 
+  const handleEscKey = (e) => {
+    if (e.key === 'Escape') {
+      setShow(false);
+    }
+  };
+
+  useEffect(() => {
+    if (show) {
+      document.addEventListener('keydown', handleEscKey);
+    } else {
+      document.removeEventListener('keydown', handleEscKey);
+    }
+
+    return () => {
+      document.removeEventListener('keydown', handleEscKey);
+    };
+  }, [show]);
+
   return (
     <motion.div
       className={st.Container}
@@ -19,7 +37,7 @@ function CustomModal({ show, setShow, children, isServise }) {
         borderRadius: show ? 0 : '100%',
       }}
       initial={{ scale: 0 }}
-      transition={{ duration: 0.3 }}
+      transition={{ duration: 0.15 }}
       onClick={handleClose}
     >
       <div

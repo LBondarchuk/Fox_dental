@@ -1,20 +1,6 @@
 @import '../../../utils/styles/breckpoints.scss';
 @import '../../../utils/styles/variables.scss';
 
-// .customModal {
-//   max-width: 60vw;
-//   margin: 25px auto;
-
-//   & div {
-//     background-color: $secondary-font;
-//     color: $main-green;
-//   }
-
-//   @include small {
-//     max-width: 90vw;
-//   }
-// }
-
 .Container {
   position: fixed;
   z-index: 1000;

@@ -16,18 +16,33 @@ const Ansver = () => {
       <div className={st.text}>
         <h2>Від чого залежать ціни в стоматології?</h2>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum vitae id ad adipisci
-          aperiam sunt dolore a quasi? A eius fugiat enim illum optio laudantium vero eaque numquam
+          {' '}
+          Ми розуміємо, що питання вартості стоматологічних послуг може виникнути у багатьох з вас.
+          Ціна на наші послуги визначається кількома факторами, які включають:
+        </p>
+
+        <p>
+          Тип Послуги: Вартість може змінюватися в залежності від конкретного виду стоматологічної
+          послуги, яку ви обираєте. Наприклад, чистка зубів, видалення зубів, лікування карієсу чи
+          імплантація - усі ці процедури можуть мати відмінні цінові категорії.
+        </p>
+
+        <p>
+          Складність Лікування: Ступінь складності вашого лікування може впливати на вартість. Це
+          може включати рівень проблеми, кількість втручань, необхідність використання
+          спеціалізованих матеріалів чи технік.
+        </p>
+
+        <p>
+          Кваліфікація та Досвід Лікаря: Досвід та кваліфікація стоматолога також можуть впливати на
+          ціну послуг. Лікарі з великим досвідом та високою кваліфікацією можуть надавати більш
+          складні послуги, але це також може вплинути на вартість лікування.
         </p>
         <p>
-          in voluptas.   Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum vitae id ad
-          adipisci aperiam sunt dolore a quasi? A eius fugiat enim illum optio laudantium vero eaque
-          numquam in voluptas.  
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum vitae id ad adipisci
-          aperiam sunt dolore a quasi? A eius fugiat enim illum optio laudantium vero eaque numquam
-          in voluptas.  
+          Ми завжди стежимо за тим, щоб надавати нашим пацієнтам найкращу можливу якість
+          стоматологічної допомоги за справедливими цінами. Якщо у вас є конкретні питання або ви
+          бажаєте отримати розрахунок вартості конкретної послуги, не соромтеся звертатися до нас.
+          Наша команда готова вам допомогти та надати всю необхідну інформацію.
         </p>
       </div>
     </div>

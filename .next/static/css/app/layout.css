@@ -384,6 +384,11 @@ a {
   width: 80px;
   height: 80px;
   z-index: 200;
+  transition: all 0.3s ease;
+}
+.Logo_container__1LJ4r:hover {
+  transform: scale(1.2);
+  cursor: pointer;
 }
 .Logo_container__1LJ4r img {
   transform: translate(-30%, -5%);

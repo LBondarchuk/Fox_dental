@@ -17,7 +17,7 @@ const Servise = ({ onShowModal, item }) => {
         <div className={st.text}>
           {' '}
           <h3>{item.name}</h3>
-          <p>{item.shortDeacription}</p>
+          <p>{item.shortDescription}</p>
         </div>
       </Transition>
     </div>
