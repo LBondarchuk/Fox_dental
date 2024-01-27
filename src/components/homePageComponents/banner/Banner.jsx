@@ -29,7 +29,7 @@ const Banner = () => {
         alt='Banner Image'
         fill
         style={{ objectFit: 'cover' }}
-        quality={80}
+        quality={200}
       />
       <div className={st.overlay}></div>
     </div>
