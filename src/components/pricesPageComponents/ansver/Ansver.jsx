@@ -9,8 +9,8 @@ const Ansver = () => {
           className={st.image}
           src='/b.jpeg'
           alt='Banner Image'
-          layout='fill'
-          objectFit='cover'
+          fill
+          style={{ objectFit: 'cover' }}
         />
       </div>
       <div className={st.text}>

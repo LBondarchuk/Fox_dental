@@ -12,14 +12,16 @@ const ServiseModal = ({ setModalItem, modalItem }) => {
         isServise
       >
         <h1>{modalItem.name}</h1>
-        {data.length > 1
-          ? data.map((item, i, arr) => {
-              if (i === 0) return <p>{item}</p>;
-              if (i === arr.length - 1) return <p style={{ marginTop: 20 }}>{item}</p>;
+        <div className={st.content}>
+          {data.length > 1
+            ? data.map((item, i, arr) => {
+                if (i === 0) return <p>{item}</p>;
+                if (i === arr.length - 1) return <p style={{ marginTop: 20 }}>{item}</p>;
 
-              return <li className={st.li}>{item}</li>;
-            })
-          : data}
+                return <li className={st.li}>{item}</li>;
+              })
+            : data}
+        </div>
       </CustomModal>
     </div>
   );

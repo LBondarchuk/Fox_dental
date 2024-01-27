@@ -16,6 +16,9 @@
 }
 
 .modal {
+  display: flex;
+  flex-direction: column;
+
   background-color: $secondary-font;
   width: 450px;
   height: fit-content;
@@ -23,7 +26,6 @@
   padding: 20px;
   cursor: pointer;
   max-height: 90vh;
-  overflow-y: scroll;
 
   &:hover {
     border-radius: 0 0 50px 0;
@@ -48,4 +50,9 @@
     transform: scale(1.5);
     cursor: pointer;
   }
+}
+
+.children {
+  flex-grow: 2;
+  overflow-y: scroll;
 }

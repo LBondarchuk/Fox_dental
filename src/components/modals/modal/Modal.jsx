@@ -48,7 +48,7 @@ function CustomModal({ show, setShow, children, isServise }) {
         <div className={st.close}>
           <FaTimes className={st.icon} onClick={() => setShow(false)} />
         </div>
-        <div>{children}</div>
+        <div className={st.children}>{children}</div>
       </div>
     </motion.div>
   );

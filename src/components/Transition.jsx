@@ -11,7 +11,7 @@ export const Transition = ({ children, background = '#fff' }) => {
   return (
     <motion.div
       ref={ref}
-      animate={inView ? { y: 0, opacity: 1, scale: 1 } : { y: 100, opacity: 0, scale: 1.2 }}
+      animate={inView ? { y: 0, opacity: 1, scale: 1 } : { y: 100, opacity: 0, scale: 0.8 }}
       transition={{ duration: 0.8, ease: 'easeInOut' }}
     >
       {children}

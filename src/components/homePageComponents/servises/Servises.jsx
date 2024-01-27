@@ -35,8 +35,8 @@ const Servises = () => {
                     className={st.image}
                     src='/s1.jpeg'
                     alt='Banner Image'
-                    layout='fill'
-                    objectFit='cover'
+                    fill
+                    style={{ objectFit: 'cover' }}
                   />
                 </div>
               </div>
@@ -66,8 +66,8 @@ const Servises = () => {
                     className={st.image}
                     src='/s2.jpeg'
                     alt='Banner Image'
-                    layout='fill'
-                    objectFit='cover'
+                    fill
+                    style={{ objectFit: 'cover' }}
                   />
                 </div>
               </div>
@@ -95,8 +95,8 @@ const Servises = () => {
                     className={st.image}
                     src='/ортодонтнія.jpeg'
                     alt='Banner Image'
-                    layout='fill'
-                    objectFit='cover'
+                    fill
+                    style={{ objectFit: 'cover' }}
                   />
                 </div>
               </div>

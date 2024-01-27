@@ -8,7 +8,7 @@ const Servise = ({ onShowModal, item }) => {
   return (
     <div className={st.container} onClick={onShowModal}>
       <div className={st.image}>
-        <Image src='/2.jpeg' alt='Banner Image' layout='fill' objectFit='cover' />
+        <Image src='/2.jpeg' alt='Banner Image' fill style={{ objectFit: 'cover' }} />
       </div>
       <Transition>
         <div className={st.learnMore}>

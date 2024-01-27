@@ -9,7 +9,7 @@ const NavLink = ({ item }) => {
   const pathname = usePathname();
   const isActive = pathname === item.link;
   return (
-    <div className={classNames(st.container)}>
+    <div className={classNames(st.container)} key={item.name}>
       <Link href={item.link} style={{ color: isActive ? '#daa520' : 'aliceblue' }}>
         {item.name}
       </Link>

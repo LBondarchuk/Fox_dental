@@ -32,11 +32,11 @@ const About = () => {
           <div className={st.imagesContainer}>
             <div className={st.left}>
               <div className={st.leftTop}>
-                <Image src='/2.jpeg' alt='Banner Image' layout='fill' objectFit='cover' />
+                <Image src='/2.jpeg' alt='Banner Image' fill style={{ objectFit: 'cover' }} />
               </div>
 
               <div className={st.leftBottom}>
-                <Image src='/b.jpeg' alt='Banner Image' layout='fill' objectFit='cover' />
+                <Image src='/b.jpeg' alt='Banner Image' fill style={{ objectFit: 'cover' }} />
               </div>
             </div>
 

@@ -27,8 +27,8 @@ const Banner = () => {
         className={st.image}
         src='/banner.jpg'
         alt='Banner Image'
-        layout='fill'
-        objectFit='cover'
+        fill
+        style={{ objectFit: 'cover' }}
         quality={80}
       />
       <div className={st.overlay}></div>
