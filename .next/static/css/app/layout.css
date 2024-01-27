@@ -176,7 +176,7 @@ a {
   max-height: 90vh;
 }
 .Modal_modal__olpWF:hover {
-  border-radius: 0 0 50px 0;
+  border-radius: 50px;
 }
 @media (max-width: 468px) {
   .Modal_modal__olpWF {
@@ -254,15 +254,17 @@ a {
   padding: 15px;
   width: 100%;
   border: 1px solid lightgrey;
-  outline-color: rgba(2, 44, 25, 0.95);
+  outline: none;
+  outline-color: rgba(2, 44, 25, 0.95) !important;
   color: rgba(2, 44, 25, 0.95);
-  transition: border-radius 0.3s ease;
+  transition: border-radius 0.5s ease;
 }
 .Form_container__tvbsB input::placeholder, .Form_container__tvbsB textarea::placeholder {
   color: #666666;
 }
 .Form_container__tvbsB input:focus, .Form_container__tvbsB textarea:focus {
   border-radius: 10px;
+  border: 3px solid rgba(2, 44, 25, 0.95);
 }
 /*!***************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[11].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[11].oneOf[9].use[5]!./src/components/forms/header-form/HeaderForm.module.scss ***!

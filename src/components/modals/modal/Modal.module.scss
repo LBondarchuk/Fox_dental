@@ -28,7 +28,7 @@
   max-height: 90vh;
 
   &:hover {
-    border-radius: 0 0 50px 0;
+    border-radius: 50px;
   }
 
   @include small {

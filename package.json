@@ -15,6 +15,7 @@
     "classnames": "^2.5.1",
     "firebase": "^10.7.2",
     "framer-motion": "^10.18.0",
+    "howler": "^2.2.4",
     "next": "14.0.4",
     "react": "^18",
     "react-bootstrap": "^2.10.0",

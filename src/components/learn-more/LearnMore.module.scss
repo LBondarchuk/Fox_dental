@@ -1,12 +1,12 @@
 @import '../../utils/styles/variables.scss';
 .container {
+  width: fit-content;
 }
 
 .icon {
   color: $main-gold;
   font-size: 32px;
-  transform: scale(2);
-  transition: all 0.5s ease;
+  transition: transform 0.5s ease;
 
   &:hover {
     transform: scale(3);

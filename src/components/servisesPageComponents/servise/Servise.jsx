@@ -11,9 +11,7 @@ const Servise = ({ onShowModal, item }) => {
         <Image src='/2.jpeg' alt='Banner Image' fill style={{ objectFit: 'cover' }} />
       </div>
       <Transition>
-        <div className={st.learnMore}>
-          <LearnMoreIcon isGreen />
-        </div>
+        <div className={st.learnMore}>{/* <LearnMoreIcon isGreen /> */}</div>
         <div className={st.text}>
           {' '}
           <h3>{item.name}</h3>
