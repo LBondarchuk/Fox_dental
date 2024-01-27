@@ -193,6 +193,7 @@ a {
   margin-left: auto;
   font-size: 32px;
   transition: all 0.3s ease;
+  color: rgba(2, 44, 25, 0.95);
 }
 .Modal_icon__ipR4e:hover {
   transform: scale(1.5);
