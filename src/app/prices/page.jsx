@@ -40,12 +40,11 @@ const Prices = () => {
                   <div className={st.action}>{isActive(item.name) ? '-' : '+'}</div>
                 </motion.span>
               </div>
-              <div
-                style={{
-                  maxHeight: isActive(item.name) ? 'fit-content' : '0',
-                  transition: 'max-height 0.5s ease',
-                  overflow: 'hidden',
-                }}
+
+              <motion.div
+                animate={{ height: isActive(item.name) ? 'fit-content' : 0 }}
+                transition={{ duration: 0.5 }}
+                initial={{ height: 0 }}
                 className={st.children}
               >
                 {item.servises.map((child) => (
@@ -54,7 +53,7 @@ const Prices = () => {
                     <div className={st.price}>{child.price} грн</div>
                   </div>
                 ))}
-              </div>
+              </motion.div>
             </div>
           </Transition>
         ))}

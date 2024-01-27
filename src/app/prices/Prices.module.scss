@@ -1,4 +1,5 @@
 @import '../../utils/styles/variables.scss';
+@import '../../utils/styles/breckpoints.scss';
 
 .container {
   background-color: $secondary-font;
@@ -45,7 +46,8 @@
 }
 
 .description {
-  padding: 0 25px;
+  height: 80px;
+  padding: 0 15px;
   display: flex;
   align-items: center;
   background-color: lightgrey;
@@ -53,16 +55,25 @@
 }
 
 .servise {
-  width: 50%;
+  width: 65%;
 }
 
 .price {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
   width: 50%;
   font-size: 32px;
   color: $main-gold;
   border-left: 2px solid $secondary-font;
-  padding: 25px 0 25px 25px;
+
   text-align: end;
+
+  @include small {
+    font-size: 17px;
+    width: 35%;
+  }
 }
 
 .action {
@@ -71,4 +82,8 @@
     transform: scale(1.5);
     cursor: pointer;
   }
+}
+
+.children {
+  overflow: hidden;
 }

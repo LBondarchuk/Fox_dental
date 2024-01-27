@@ -92,7 +92,8 @@
 }
 
 .Prices_description__oryNd {
-  padding: 0 25px;
+  height: 80px;
+  padding: 0 15px;
   display: flex;
   align-items: center;
   background-color: lightgrey;
@@ -100,16 +101,25 @@
 }
 
 .Prices_servise__hVIgr {
-  width: 50%;
+  width: 65%;
 }
 
 .Prices_price__irNMZ {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
   width: 50%;
   font-size: 32px;
   color: #daa520;
   border-left: 2px solid aliceblue;
-  padding: 25px 0 25px 25px;
   text-align: end;
+}
+@media (max-width: 468px) {
+  .Prices_price__irNMZ {
+    font-size: 17px;
+    width: 35%;
+  }
 }
 
 .Prices_action__AZR9G {
@@ -118,4 +128,8 @@
 .Prices_action__AZR9G:hover {
   transform: scale(1.5);
   cursor: pointer;
+}
+
+.Prices_children__fJK8G {
+  overflow: hidden;
 }
