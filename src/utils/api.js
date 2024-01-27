@@ -4,7 +4,10 @@ import { db } from '../firebase';
 export const fetchData = async (collectionName, cb) => {
   try {
     const querySnapshot = await getDocs(collection(db, collectionName));
-    const newItems = querySnapshot.docs.map((doc) => ({ id: doc.id, ...doc.data() }));
+    console.log(querySnapshot.docs.length);
+    const newItems = querySnapshot.docs.map((doc) => {
+      return { id: doc.id, ...doc.data() };
+    });
     cb(newItems);
   } catch (error) {
     console.error('Error fetching documents:', error);

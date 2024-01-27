@@ -15,7 +15,7 @@ const Prices = () => {
   useEffect(() => {
     fetchData('prices', setItems);
   }, []);
-  console.log(items[0] ? items[0].servises : 'g');
+  console.log(items, 'it');
   return (
     <div className={st.container}>
       <div className={st.fake}></div>
@@ -42,7 +42,7 @@ const Prices = () => {
               </div>
               <div
                 style={{
-                  maxHeight: isActive(item.name) ? '500px' : '0',
+                  maxHeight: isActive(item.name) ? 'fit-content' : '0',
                   transition: 'max-height 0.5s ease',
                   overflow: 'hidden',
                 }}
