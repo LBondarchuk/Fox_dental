@@ -23,15 +23,6 @@ const Banner = () => {
           </motion.span>
         ))}
       </h1>
-      <Image
-        className={st.image}
-        src='/banner.jpg'
-        alt='Banner Image'
-        fill
-        style={{ objectFit: 'cover' }}
-        quality={100}
-      />
-      <div className={st.overlay}></div>
     </div>
   );
 };

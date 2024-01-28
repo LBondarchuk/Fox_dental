@@ -206,6 +206,11 @@
 .Banner_container__He4uj {
   position: relative;
   height: 100vh;
+  background-image: url("/banner.jpg");
+  background-size: cover;
+  background-position: left top;
+  background-repeat: no-repeat;
+  overflow: hidden;
 }
 
 .Banner_text__J_9zu {
@@ -226,10 +231,6 @@
   .Banner_text__J_9zu {
     font-size: 40px;
   }
-}
-
-.Banner_image__4skq7 {
-  object-position: left top;
 }
 /*!*************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[11].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[11].oneOf[9].use[5]!./src/components/social-medias/SocialMedias.module.scss ***!

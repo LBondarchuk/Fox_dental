@@ -4,8 +4,12 @@
 .container {
   position: relative;
   height: 100vh;
+  background-image: url('/banner.jpg');
+  background-size: cover;
+  background-position: left top;
+  background-repeat: no-repeat;
+  overflow: hidden;
 }
-
 .text {
   position: absolute;
   z-index: 1;
@@ -20,8 +24,4 @@
   @include medium {
     font-size: 40px;
   }
-}
-
-.image {
-  object-position: left top;
 }
