@@ -94,6 +94,10 @@
   font-weight: 400;
   font-size: 32px;
 }
+.Prices_itemTitle__zK6WY:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
 
 .Prices_itemActive__bK_4Q {
   background-color: rgba(2, 44, 25, 0.95);

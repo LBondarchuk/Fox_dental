@@ -4,7 +4,6 @@ import { Transition } from '../../Transition';
 import LearnMoreIcon from '@/components/learn-more/LearnMore';
 
 const Servise = ({ onShowModal, item }) => {
-  console.log(item.img, 'ss');
   return (
     <div className={st.container} onClick={onShowModal}>
       <div className={st.image}>

@@ -22,6 +22,11 @@
   text-transform: uppercase;
   font-weight: 400;
   font-size: 32px;
+
+  &:hover {
+    opacity: 0.7;
+    cursor: pointer;
+  }
 }
 .itemActive {
   background-color: $main-green;
