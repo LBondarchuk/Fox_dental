@@ -13,16 +13,16 @@ const Contacts = () => {
       <div className={st.contacts}>
         <div className={st.hours}>
           <p>пн-пт: 8.00 - 20.00</p>
-          <p>сб: 9.00 - 20.00</p>
-          <p>нд: вихідний</p>
+          <p>сб: 10.00 - 16.00</p>
+          <p>нд: 10.00 - 14.00</p>
         </div>
 
         <div className={st.numbers}>
           <Link href='tel:+380689262855'>
-            <h2>+380689262855</h2>
+            <h2>+38 (097) 355 41 25</h2>
           </Link>
           <Link href='mailto:gmail@gmail.com'>
-            <p>gmail@gmail.com</p>
+            <p>fox-dental@gmail.com</p>
           </Link>
         </div>
       </div>

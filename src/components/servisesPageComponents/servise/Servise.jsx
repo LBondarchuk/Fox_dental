@@ -4,14 +4,13 @@ import { Transition } from '../../Transition';
 import LearnMoreIcon from '@/components/learn-more/LearnMore';
 
 const Servise = ({ onShowModal, item }) => {
-  console.log(item, 'ss');
+  console.log(item.img, 'ss');
   return (
     <div className={st.container} onClick={onShowModal}>
       <div className={st.image}>
-        <Image src='/2.jpeg' alt='Banner Image' fill style={{ objectFit: 'cover' }} />
+        <Image src={item.img} alt='Banner Image' fill style={{ objectFit: 'cover' }} />
       </div>
       <Transition>
-        <div className={st.learnMore}>{/* <LearnMoreIcon isGreen /> */}</div>
         <div className={st.text}>
           {' '}
           <h3>{item.name}</h3>

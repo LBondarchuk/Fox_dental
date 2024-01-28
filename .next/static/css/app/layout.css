@@ -175,9 +175,6 @@ a {
   cursor: pointer;
   max-height: 90vh;
 }
-.Modal_modal__olpWF:hover {
-  border-radius: 50px;
-}
 @media (max-width: 468px) {
   .Modal_modal__olpWF {
     width: 90vw;

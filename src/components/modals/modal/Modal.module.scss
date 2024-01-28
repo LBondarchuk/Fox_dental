@@ -27,9 +27,9 @@
   cursor: pointer;
   max-height: 90vh;
 
-  &:hover {
-    border-radius: 50px;
-  }
+  // &:hover {
+  //   border-radius: 50px;
+  // }
 
   @include small {
     width: 90vw;

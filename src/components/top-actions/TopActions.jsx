@@ -16,7 +16,7 @@ const TopActions = memo(({ show, setShow, hasScroll }) => {
     <div className={st.container}>
       <label>
         <div className={st.link}>
-          <NavLink item={{ link: 'tel:+380689262855', name: '+380689262855' }} />
+          <NavLink item={{ link: 'tel:+380973554125', name: '+38 (097) 355 41 25' }} />
         </div>
         <div className={st.mobileLink} style={{ color: show || hasScroll ? 'aliceblue' : 'black' }}>
           <NavLink

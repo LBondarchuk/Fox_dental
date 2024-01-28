@@ -26,7 +26,6 @@
 
   &:hover {
     background-color: $main-gold;
-    border-radius: 50px;
   }
 }
 
@@ -69,6 +68,7 @@
   & h3 {
     color: inherit;
     margin-bottom: 30px;
+    text-transform: uppercase;
   }
 
   & p {
