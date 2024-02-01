@@ -22,14 +22,14 @@
 
 .link {
   transition: all 0.5s ease;
-  @include medium {
+  @include large {
     display: none;
   }
 }
 
 .mobileLink {
   display: none;
-  @include medium {
+  @include large {
     display: block;
   }
 }

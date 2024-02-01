@@ -102,12 +102,8 @@
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[11].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[11].oneOf[9].use[5]!./src/components/servisesPageComponents/servise/Servise.module.scss ***!
   \*************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 .Servise_container__rQmML {
-  position: relative;
-  display: flex;
-  align-items: center;
-  gap: 30px;
-  width: 47vw;
-  height: 56vh;
+  width: 49%;
+  height: 400px;
   background-color: aliceblue;
   margin-bottom: 30px;
   color: rgba(2, 44, 25, 0.95);
@@ -116,13 +112,16 @@
 }
 @media (max-width: 1200px) {
   .Servise_container__rQmML {
-    width: 96vw;
+    width: 100%;
+  }
+}
+@media (max-width: 768px) {
+  .Servise_container__rQmML {
+    height: 600px;
   }
 }
 @media (max-width: 468px) {
   .Servise_container__rQmML {
-    flex-direction: column-reverse;
-    width: 100%;
     height: -moz-fit-content;
     height: fit-content;
   }
@@ -131,62 +130,66 @@
   opacity: 0.7;
 }
 
-.Servise_image__oQK66 {
-  position: relative;
-  width: 25vw;
-  height: 25vh;
-}
-@media (max-width: 1200px) {
-  .Servise_image__oQK66 {
-    width: 44vw;
-    height: 40vh;
-  }
-}
-@media (max-width: 468px) {
-  .Servise_image__oQK66 {
-    width: 100%;
-    height: 40vh;
-  }
-}
-
-.Servise_text__2Srw1 {
-  width: 25vw;
-  padding: 40px;
-  color: inherit;
-}
-@media (max-width: 1200px) {
-  .Servise_text__2Srw1 {
-    width: 44vw;
-    height: 40vh;
-  }
-}
-@media (max-width: 768px) {
-  .Servise_text__2Srw1 {
-    width: 50%;
-    padding: 10px;
-  }
-}
-@media (max-width: 468px) {
-  .Servise_text__2Srw1 {
-    padding-top: 20px;
-    width: 100%;
-    height: -moz-fit-content;
-    height: fit-content;
-  }
-}
-.Servise_text__2Srw1 h3 {
+.Servise_title__vs1Bi {
+  padding: 20px;
+  display: flex;
+  justify-content: end;
   color: inherit;
   margin-bottom: 30px;
   text-transform: uppercase;
 }
-.Servise_text__2Srw1 p {
-  color: inherit;
+@media (max-width: 768px) {
+  .Servise_title__vs1Bi {
+    justify-content: start;
+  }
 }
 
-.Servise_learnMore__P5eos {
-  position: absolute;
-  transform: translateX(-50px, -50px);
-  top: 0;
+.Servise_contentContainer__4ULEB {
+  box-sizing: border-box;
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+@media (max-width: 768px) {
+  .Servise_contentContainer__4ULEB {
+    flex-direction: column-reverse;
+  }
+}
+
+.Servise_image__oQK66 {
+  flex: 1 1;
+  position: relative;
+  width: 200px;
+  height: 200px;
+}
+@media (max-width: 768px) {
+  .Servise_image__oQK66 {
+    flex: auto;
+    width: 100%;
+    height: 40vh;
+  }
+}
+
+.Servise_img__qROUP {
+  object-fit: cover;
+}
+
+.Servise_text__2Srw1 {
+  flex: 1 1;
+  color: inherit;
+  padding-right: 40px;
+  color: inherit;
+}
+@media (max-width: 768px) {
+  .Servise_text__2Srw1 {
+    padding: 40px;
+  }
+}
+@media (max-width: 468px) {
+  .Servise_text__2Srw1 {
+    padding: 25px;
+  }
 }
 /*!************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[11].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[11].oneOf[9].use[5]!./src/components/loader/Loader.module.scss ***!
@@ -220,6 +223,9 @@
 .ServisesPage_container__ymyYJ {
   padding: 100px 25px 0;
   background-color: #666666;
+  width: 100vw;
+  max-width: 1500px;
+  margin: 0 auto;
 }
 @media (max-width: 468px) {
   .ServisesPage_container__ymyYJ {
@@ -241,5 +247,5 @@
 
 .ServisesPage_title__zoUDi {
   color: aliceblue;
-  padding: 40px;
+  padding: 40px 0;
 }

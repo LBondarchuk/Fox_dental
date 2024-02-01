@@ -19,7 +19,9 @@ const Banner = () => {
             }}
             key={i}
           >
-            <span key={i}>{el} </span>
+            <span key={i} className={i < 2 && st.brand}>
+              {el}{' '}
+            </span>
           </motion.span>
         ))}
       </h1>

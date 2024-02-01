@@ -4,6 +4,10 @@
   padding: 100px 25px 0;
   background-color: $medium-font;
 
+  width: 100vw;
+  max-width: 1500px;
+  margin: 0 auto;
+
   @include small {
     padding: 0;
     padding-top: 100px;
@@ -15,8 +19,6 @@
   flex-wrap: wrap;
   gap: 2%;
 
- 
-
   @include large {
     flex-direction: column;
   }
@@ -24,5 +26,5 @@
 
 .title {
   color: $secondary-font;
-  padding: 40px;
+  padding: 40px 0;
 }

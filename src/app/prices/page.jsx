@@ -15,8 +15,9 @@ const Prices = () => {
 
   useEffect(() => {
     fetchData('prices', setItems);
+
   }, []);
-  console.log(items, 'it');
+  
   return (
     <div className={st.container}>
       {items.length > 0 ? (

@@ -17,11 +17,15 @@
   top: 60%;
   left: 25px;
   font-weight: 400;
-  color: $main-green;
+  color: $medium-font;
   @include small {
     font-size: 30px;
   }
   @include medium {
     font-size: 40px;
   }
+}
+
+.brand {
+  color: $main-green;
 }

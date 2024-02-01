@@ -3,6 +3,7 @@ import './globals.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Header from '@/components/header/Header';
 import Footer from '@/components/footer/Footer';
+import Logo from '@/components/logo/Logo';
 
 export const metadata = {
   title: 'FOX DENTAL',
@@ -12,6 +13,9 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang='en'>
+      <head>
+        <link rel='icon' href='/favicon.svg' />
+      </head>
       <body>
         <>
           <Header />

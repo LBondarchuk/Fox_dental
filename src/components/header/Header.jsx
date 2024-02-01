@@ -45,21 +45,26 @@ const Header = () => {
       transition={{ duration: 1 }}
     >
       <div
-        className={classNames(st.container, {
+        className={classNames(st.bacground, {
           [st.scroll]: hasScroll,
         })}
       >
-        <motion.div
-          animate={{ scale: 1, rotate: 360 }}
-          initial={{ scale: 0, rotate: 0 }}
-          transition={{ type: 'spring', delay: 0.5, duration: 1 }}
-        >
-          <Logo style={{ backgroundColor: hasScroll ? 'transparent' : 'rgba(2, 44, 25, 0.95)' }} />
-        </motion.div>
-        <Nav />
-        <MobileNav show={show} />
-        <TopActions setShow={setShow} show={show} />
+        <div className={classNames(st.container)}>
+          <motion.div
+            animate={{ scale: 1, rotate: 360 }}
+            initial={{ scale: 0, rotate: 0 }}
+            transition={{ type: 'spring', delay: 0.5, duration: 1 }}
+          >
+            <Logo
+              style={{ backgroundColor: hasScroll ? 'transparent' : 'rgba(2, 44, 25, 0.95)' }}
+            />
+          </motion.div>
+          <Nav />
+          <MobileNav show={show} />
+          <TopActions setShow={setShow} show={show} />
+        </div>
       </div>
+
       <div className={st.line}></div>
     </motion.div>
   );

@@ -8,7 +8,7 @@ export const fetchData = async (collectionName, cb) => {
     const newItems = querySnapshot.docs.map((doc) => {
       return { id: doc.id, ...doc.data() };
     });
-    cb(newItems);
+    cb(newItems.sort((a, b) => a.seqNumber - b.seqNumber));
   } catch (error) {
     console.error('Error fetching documents:', error);
   }

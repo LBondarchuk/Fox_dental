@@ -6,16 +6,16 @@ import LearnMoreIcon from '@/components/learn-more/LearnMore';
 const Servise = ({ onShowModal, item }) => {
   return (
     <div className={st.container} onClick={onShowModal}>
-      <div className={st.image}>
-        <Image src={item.img} alt='Banner Image' fill style={{ objectFit: 'cover' }} />
-      </div>
-      <Transition>
-        <div className={st.text}>
-          {' '}
-          <h3>{item.name}</h3>
-          <p>{item.shortDescription}</p>
+      <h3 className={st.title}>
+        <span>{item.name}</span>
+      </h3>
+      <div className={st.contentContainer}>
+        <div className={st.image}>
+          <Image src={item.img} alt='Banner Image' fill style={{ objectFit: 'cover' }} />
         </div>
-      </Transition>
+
+        <div className={st.text}>{item.shortDescription}</div>
+      </div>
     </div>
   );
 };

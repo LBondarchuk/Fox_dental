@@ -111,6 +111,8 @@
   background-color: #666666;
   color: aliceblue;
   padding-top: 80px;
+  max-width: 1500px;
+  margin: 0 auto;
 }
 
 .Contacts_title__QDw_z {

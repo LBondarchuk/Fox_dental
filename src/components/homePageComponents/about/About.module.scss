@@ -67,19 +67,17 @@
   height: 100%;
   position: relative;
   background-color: gray;
-
-  overflow: hidden;
 }
 .leftBottom {
   position: absolute;
   background-color: rgb(128, 94, 94);
   width: 300px;
-  height: 180px;
+  height: 200px;
   right: -80px;
   transform: translateY(-50%);
 
   @include small {
-    right: 0;
+    display: none;
   }
 }
 

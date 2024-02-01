@@ -4,6 +4,8 @@
 .page_container__aoG4z {
   flex-grow: 1;
   background-color: aliceblue;
+  max-width: 1500px;
+  margin: 0 auto;
 }
 
 /*!************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
@@ -152,20 +154,19 @@
   height: 100%;
   position: relative;
   background-color: gray;
-  overflow: hidden;
 }
 
 .About_leftBottom__AhXRf {
   position: absolute;
   background-color: rgb(128, 94, 94);
   width: 300px;
-  height: 180px;
+  height: 200px;
   right: -80px;
   transform: translateY(-50%);
 }
 @media (max-width: 468px) {
   .About_leftBottom__AhXRf {
-    right: 0;
+    display: none;
   }
 }
 
@@ -220,7 +221,7 @@
   top: 60%;
   left: 25px;
   font-weight: 400;
-  color: rgba(2, 44, 25, 0.95);
+  color: #666666;
 }
 @media (max-width: 468px) {
   .Banner_text__J_9zu {
@@ -231,6 +232,10 @@
   .Banner_text__J_9zu {
     font-size: 40px;
   }
+}
+
+.Banner_brand__QYUj5 {
+  color: rgba(2, 44, 25, 0.95);
 }
 /*!*************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[11].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[11].oneOf[9].use[5]!./src/components/social-medias/SocialMedias.module.scss ***!
