@@ -7,6 +7,7 @@ import { Transition } from '@/components/Transition';
 import { motion } from 'framer-motion';
 import { fetchData } from '@/utils/api';
 import Loader from '@/components/loader/Loader';
+import { logButtonClickEvent } from '@/utils/analitics';
 
 const Prices = () => {
   const [items, setItems] = useState([]);
@@ -15,9 +16,13 @@ const Prices = () => {
 
   useEffect(() => {
     fetchData('prices', setItems);
-
   }, []);
-  
+
+  const handleSetActive = (item) => {
+    setActive(isActive(item.name) ? '' : item.name);
+    logButtonClickEvent(`клік на категорію цін ${item.name}`);
+  };
+
   return (
     <div className={st.container}>
       {items.length > 0 ? (
@@ -29,10 +34,7 @@ const Prices = () => {
             {items.map((item) => (
               <Transition key={item.id}>
                 <hr />
-                <div
-                  className={st.item}
-                  onClick={() => setActive(isActive(item.name) ? '' : item.name)}
-                >
+                <div className={st.item} onClick={() => handleSetActive(item)}>
                   <div className={st.itemTitle}>
                     <div className={st.name}>{item.name}</div>
                     <motion.span

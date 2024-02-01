@@ -37,19 +37,19 @@ const Header = () => {
   }, [hasScroll, containerControls]);
 
   return (
-    <motion.div
-      className={st.wrapper}
-      animate={{
-        height: hasScroll ? 100 : 60,
-      }}
-      transition={{ duration: 1 }}
-    >
+    <motion.div className={st.wrapper}>
       <div
         className={classNames(st.bacground, {
           [st.scroll]: hasScroll,
         })}
       >
-        <div className={classNames(st.container)}>
+        <motion.div
+          className={classNames(st.container)}
+          animate={{
+            marginTop: hasScroll ? 10 : 0,
+          }}
+          transition={{ duration: 0.5 }}
+        >
           <motion.div
             animate={{ scale: 1, rotate: 360 }}
             initial={{ scale: 0, rotate: 0 }}
@@ -62,7 +62,7 @@ const Header = () => {
           <Nav />
           <MobileNav show={show} />
           <TopActions setShow={setShow} show={show} />
-        </div>
+        </motion.div>
       </div>
 
       <div className={st.line}></div>

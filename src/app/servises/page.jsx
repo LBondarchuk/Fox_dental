@@ -5,6 +5,7 @@ import Servise from '../../components/servisesPageComponents/servise/Servise';
 import st from './ServisesPage.module.scss';
 import { fetchData } from '@/utils/api';
 import Loader from '@/components/loader/Loader';
+import { logButtonClickEvent } from '@/utils/analitics';
 
 const ServisesPage = () => {
   const [modalItem, setModalItem] = useState(false);
@@ -14,6 +15,11 @@ const ServisesPage = () => {
     fetchData('servises', setServises);
   }, []);
 
+  const handleSetActiveItem = (item) => {
+    logButtonClickEvent(`Клік на сервіс ${item.name}`);
+    setModalItem(item);
+  };
+
   return (
     <div className={st.container}>
       {servises.length > 0 ? (
@@ -22,7 +28,7 @@ const ServisesPage = () => {
           <h1 className={st.title}>НАШІ ПОСЛУГИ</h1>
           <div className={st.list}>
             {servises.map((item) => (
-              <Servise onShowModal={() => setModalItem(item)} item={item} key={item.id} />
+              <Servise onShowModal={() => handleSetActiveItem(item)} item={item} key={item.id} />
             ))}
           </div>
         </>

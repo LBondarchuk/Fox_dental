@@ -2,12 +2,11 @@
 
 .container {
   box-sizing: border-box;
-  transition: all 0.5s ease;
+  transition: background-color 0.5s ease;
   display: flex;
   justify-content: space-between;
   align-items: center;
   background-color: rgba(2, 44, 25, 0);
-  margin-top: 10px;
   height: 80px;
   padding-right: 25px;
   z-index: 2;
@@ -23,7 +22,6 @@
 .wrapper {
   position: fixed;
   width: 100%;
-
   z-index: 2;
 }
 
@@ -42,7 +40,6 @@
 .scroll {
   background-color: $main-green;
   color: $secondary-font;
-  height: 100px;
 }
 
 @keyframes width_animation {

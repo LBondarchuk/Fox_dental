@@ -23,6 +23,12 @@
       "static/chunks/main-app.js",
       "static/chunks/app/servises/layout.js"
     ],
+    "/contacts/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/contacts/page.css",
+      "static/chunks/app/contacts/page.js"
+    ],
     "/prices/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
@@ -33,12 +39,6 @@
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/prices/layout.js"
-    ],
-    "/contacts/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/css/app/contacts/page.css",
-      "static/chunks/app/contacts/page.js"
     ]
   }
 }
