@@ -22,6 +22,17 @@
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/servises/layout.js"
+    ],
+    "/prices/layout": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/prices/layout.js"
+    ],
+    "/prices/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/prices/page.css",
+      "static/chunks/app/prices/page.js"
     ]
   }
 }
