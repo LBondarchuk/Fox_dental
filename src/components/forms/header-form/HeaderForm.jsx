@@ -4,7 +4,7 @@ import st from './HeaderForm.module.scss';
 import Form from '../form/Form';
 import { useState } from 'react';
 import { sendToTelegram } from '@/utils/telegram';
-import { logButtonClickEvent } from '@/utils/analitics';
+// import { logButtonClickEvent } from '@/utils/analitics';
 
 const HeaderForm = ({ setShowModal }) => {
   const [name, setName] = useState('');
@@ -42,7 +42,7 @@ const HeaderForm = ({ setShowModal }) => {
     setNameError('');
     setPhoneNumberError('');
     setShowModal(false);
-    logButtonClickEvent('header form button');
+    // logButtonClickEvent('header form button');
   };
 
   return (

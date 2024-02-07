@@ -1,7 +1,6 @@
-'use client';
-import { analytics } from '@/firebase';
-import { logEvent } from 'firebase/analytics';
+// import { analytics } from '@/firebase';
+// import { logEvent } from 'firebase/analytics';
 
-export const logButtonClickEvent = (name) => {
-  logEvent(analytics, name);
-};
+// export const logButtonClickEvent = (name) => {
+//   logEvent(analytics, name);
+// };

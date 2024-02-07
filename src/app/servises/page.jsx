@@ -5,7 +5,7 @@ import Servise from '../../components/servisesPageComponents/servise/Servise';
 import st from './ServisesPage.module.scss';
 import { fetchData } from '@/utils/api';
 import Loader from '@/components/loader/Loader';
-import { logButtonClickEvent } from '@/utils/analitics';
+// import { logButtonClickEvent } from '@/utils/analitics';
 
 const ServisesPage = () => {
   const [modalItem, setModalItem] = useState(false);
@@ -16,7 +16,7 @@ const ServisesPage = () => {
   }, []);
 
   const handleSetActiveItem = (item) => {
-    logButtonClickEvent(`Клік на сервіс ${item.name}`);
+    // logButtonClickEvent(`Клік на сервіс ${item.name}`);
     setModalItem(item);
   };
 
