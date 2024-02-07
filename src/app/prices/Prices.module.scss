@@ -2,10 +2,9 @@
 @import '../../utils/styles/breckpoints.scss';
 
 .container {
-  background-color: $secondary-font;
-
-  width: 100%;
-
+  padding: 100px 25px 0;
+  width: 100vw;
+  max-width: 1500px;
   box-sizing: border-box;
   margin: 0 auto;
 }
