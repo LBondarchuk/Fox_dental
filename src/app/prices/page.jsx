@@ -7,7 +7,6 @@ import { Transition } from '@/components/Transition';
 import { motion } from 'framer-motion';
 import { fetchData } from '@/utils/api';
 import Loader from '@/components/loader/Loader';
-// import { logButtonClickEvent } from '@/utils/analitics';
 
 const Prices = () => {
   const [items, setItems] = useState([]);
@@ -20,7 +19,6 @@ const Prices = () => {
 
   const handleSetActive = (item) => {
     setActive(isActive(item.name) ? '' : item.name);
-    // logButtonClickEvent(`клік на категорію цін ${item.name}`);
   };
 
   return (
