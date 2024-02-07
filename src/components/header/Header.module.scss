@@ -41,7 +41,9 @@
   background-color: $main-green;
   color: $secondary-font;
 }
-
+.bacground {
+  transition: all 0.5s ease;
+}
 @keyframes width_animation {
   to {
     width: 100%;
