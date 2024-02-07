@@ -4,6 +4,8 @@
 .container {
   background-color: $secondary-font;
   max-width: 1500px;
+  width: 100vw;
+  box-sizing: border-box;
   margin: 0 auto;
 }
 .fake {

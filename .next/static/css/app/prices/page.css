@@ -73,6 +73,8 @@
 .Prices_container__3req9 {
   background-color: aliceblue;
   max-width: 1500px;
+  width: 100vw;
+  box-sizing: border-box;
   margin: 0 auto;
 }
 
