@@ -225,6 +225,7 @@
   background-color: #666666;
   width: 100vw;
   max-width: 1500px;
+  box-sizing: border-box;
   margin: 0 auto;
 }
 @media (max-width: 468px) {
