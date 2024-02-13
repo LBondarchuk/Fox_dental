@@ -1,0 +1,175 @@
+/*!*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[11].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[11].oneOf[9].use[5]!./src/components/pricesPageComponents/ansver/Ansver.module.scss ***!
+  \*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.Ansver_container__gZbst {
+  display: flex;
+  background-color: #daa520;
+}
+@media (max-width: 768px) {
+  .Ansver_container__gZbst {
+    flex-direction: column;
+  }
+}
+
+.Ansver_image__JdQNw {
+  position: relative;
+  min-height: 300px;
+  max-height: 500px;
+  width: 50%;
+  padding: 30px;
+}
+@media (max-width: 768px) {
+  .Ansver_image__JdQNw {
+    width: 100%;
+  }
+}
+
+.Ansver_text__7GSZA {
+  width: 50%;
+  padding: 40px;
+}
+@media (max-width: 768px) {
+  .Ansver_text__7GSZA {
+    width: 100%;
+  }
+}
+.Ansver_text__7GSZA h2 {
+  text-transform: uppercase;
+  color: rgba(2, 44, 25, 0.95);
+}
+.Ansver_text__7GSZA p {
+  color: rgba(2, 44, 25, 0.95);
+  margin-bottom: 40px;
+}
+/*!************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[11].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[11].oneOf[9].use[5]!./src/components/loader/Loader.module.scss ***!
+  \************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.Loader_container__Rhygo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+@keyframes Loader_spin__ov_bc {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.Loader_LoaderSpiner___Vw1L {
+  border: 8px solid #daa520;
+  border-top: 8px solid rgba(2, 44, 25, 0.95);
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  animation: Loader_spin__ov_bc 1s linear infinite;
+}
+/*!*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[11].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[11].oneOf[9].use[5]!./src/app/prices/Prices.module.scss ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.Prices_container__3req9 {
+  max-width: 1500px;
+  width: 100vw;
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+
+.Prices_fake__YxrOG {
+  height: 80px;
+  background-color: #666666;
+}
+
+.Prices_title__iMeI6 {
+  font-size: 60px;
+  padding: 100px 0 50px;
+  padding: 0 25px;
+  margin-top: 120px;
+  margin-bottom: 100px;
+  color: rgba(2, 44, 25, 0.95);
+  font-weight: 400;
+}
+
+.Prices_itemTitle__zK6WY {
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 32px;
+}
+@media (max-width: 468px) {
+  .Prices_itemTitle__zK6WY {
+    font-size: 24px;
+  }
+}
+.Prices_itemTitle__zK6WY:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+.Prices_itemActive__bK_4Q {
+  background-color: rgba(2, 44, 25, 0.95);
+}
+.Prices_itemActive__bK_4Q .Prices_name__7LK0m {
+  color: aliceblue;
+}
+
+.Prices_name__7LK0m {
+  flex-grow: 2;
+  color: rgba(2, 44, 25, 0.95);
+  transition: all 0.5s ease;
+}
+
+.Prices_action__AZR9G {
+  color: #daa520;
+  font-size: 60px;
+}
+
+.Prices_list__O5Z7V {
+  padding: 0 25px;
+}
+
+.Prices_description__oryNd {
+  height: 80px;
+  padding: 0 15px;
+  display: flex;
+  align-items: center;
+  background-color: lightgrey;
+  border-bottom: 2px solid aliceblue;
+}
+
+.Prices_servise__hVIgr {
+  width: 65%;
+}
+
+.Prices_price__irNMZ {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 50%;
+  font-size: 32px;
+  color: #daa520;
+  border-left: 2px solid aliceblue;
+  text-align: end;
+}
+@media (max-width: 468px) {
+  .Prices_price__irNMZ {
+    font-size: 17px;
+    width: 35%;
+  }
+}
+
+.Prices_action__AZR9G {
+  transition: all 0.5s ease;
+}
+.Prices_action__AZR9G:hover {
+  transform: scale(1.5);
+  cursor: pointer;
+}
+
+.Prices_children__fJK8G {
+  overflow: hidden;
+}
