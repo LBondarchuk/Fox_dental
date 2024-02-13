@@ -20,7 +20,7 @@ const TopActions = memo(({ show, setShow, hasScroll }) => {
         </div>
         <div className={st.mobileLink} style={{ color: show || hasScroll ? 'aliceblue' : 'black' }}>
           <NavLink
-            item={{ link: 'tel:+380689262855', name: <AiFillPhone style={{ fontSize: 32 }} /> }}
+            item={{ link: 'tel:+380973554125', name: <AiFillPhone style={{ fontSize: 32 }} /> }}
           />
         </div>
       </label>
