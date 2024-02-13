@@ -3,6 +3,8 @@
 
 .container {
   display: none;
+  min-height: 500px;
+  overflow-y: scroll;
 
   @include small {
     display: flex;
