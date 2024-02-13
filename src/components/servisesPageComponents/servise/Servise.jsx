@@ -1,7 +1,5 @@
 import st from './Servise.module.scss';
 import Image from 'next/image';
-import { Transition } from '../../Transition';
-import LearnMoreIcon from '@/components/learn-more/LearnMore';
 
 const Servise = ({ onShowModal, item }) => {
   return (

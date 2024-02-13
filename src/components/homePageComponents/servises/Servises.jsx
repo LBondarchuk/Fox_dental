@@ -1,7 +1,6 @@
 import Image from 'next/image';
 import st from './Servises.module.scss';
 import { Transition } from '../../Transition';
-import LearnMore from '../../learn-more/LearnMore';
 import Link from 'next/link';
 
 const Servises = () => {
@@ -15,9 +14,7 @@ const Servises = () => {
           <Transition>
             <Link href='/servises'>
               <div className={st.item}>
-                <div className={st.learnMore}>
-                  <LearnMore />
-                </div>
+                <div className={st.learnMore}></div>
                 <div className={st.arrow}></div>
                 <div className={st.number}>1/</div>
                 <div className={st.description}>
@@ -46,9 +43,7 @@ const Servises = () => {
           <Transition>
             <Link href='/servises'>
               <div className={st.item}>
-                <div className={st.learnMore}>
-                  <LearnMore />
-                </div>
+                <div className={st.learnMore}></div>
                 <div className={st.number}>2/</div>
                 <div className={st.description}>
                   <h2>ТЕРАПЕВТИЧНА СТОМАТОЛОГІЯ</h2>
@@ -76,9 +71,7 @@ const Servises = () => {
           <Transition>
             <Link href='/servises'>
               <div className={st.item}>
-                <div className={st.learnMore}>
-                  <LearnMore />
-                </div>
+                <div className={st.learnMore}></div>
                 <div className={st.number}>3/</div>
                 <div className={st.description}>
                   <h2>ОРТОДОНТІЯ</h2>

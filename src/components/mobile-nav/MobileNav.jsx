@@ -1,4 +1,4 @@
-'use client';
+import React, { useEffect } from 'react';
 import { motion } from 'framer-motion';
 import NavLink from '../nav-link/NavLink';
 import SocialMedias from '../social-medias/SocialMedias';
@@ -6,6 +6,18 @@ import st from './MobileNav.module.scss';
 import { memo } from 'react';
 
 const MobileNav = memo(({ show }) => {
+  useEffect(() => {
+    if (show) {
+      document.body.style.overflow = 'hidden';
+    } else {
+      document.body.style.overflow = '';
+    }
+
+    return () => {
+      document.body.style.overflow = '';
+    };
+  }, [show]);
+
   const navItems = [
     { link: '/', name: 'ГОЛОВНА' },
     { link: '/prices', name: 'ЦІНИ' },
@@ -42,8 +54,8 @@ const MobileNav = memo(({ show }) => {
           initial='hidden'
           animate='visible'
         >
-          {navItems.map((item) => (
-            <NavLink item={item} />
+          {navItems.map((item, index) => (
+            <NavLink key={index} item={item} />
           ))}
         </motion.div>
         <div style={{ marginBottom: 100 }}>

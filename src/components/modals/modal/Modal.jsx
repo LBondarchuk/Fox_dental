@@ -19,6 +19,18 @@ function CustomModal({ show, setShow, children, isServise }) {
 
   useEffect(() => {
     if (show) {
+      document.body.style.overflow = 'hidden';
+    } else {
+      document.body.style.overflow = '';
+    }
+
+    return () => {
+      document.body.style.overflow = '';
+    };
+  }, [show]);
+
+  useEffect(() => {
+    if (show) {
       document.addEventListener('keydown', handleEscKey);
     } else {
       document.removeEventListener('keydown', handleEscKey);

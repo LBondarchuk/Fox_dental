@@ -16,7 +16,8 @@
   color: $secondary-font;
 
   @include medium {
-    font-size: 40px;
+    font-size: 32px;
+    padding: 40px 0;
   }
 }
 
@@ -51,6 +52,9 @@
 
   @include large {
     text-align: start;
+  }
+  @include small {
+    font-size: 28px;
   }
 }
 
