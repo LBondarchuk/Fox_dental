@@ -18,7 +18,7 @@ const Contacts = () => {
         </div>
 
         <div className={st.numbers}>
-          <Link href='tel:+380689262855'>
+          <Link href='tel:380973554125'>
             <h2>+38 (097) 355 41 25</h2>
           </Link>
           <Link href='mailto:gmail@gmail.com'>
